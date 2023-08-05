@@ -7,7 +7,8 @@
 
 ## References
 
-* Textbook: [https://math.hws.edu/javanotes/](https://math.hws.edu/javanotes/)
+* [Think Java as .pdf](https://greenteapress.com/thinkjava6/thinkjava.pdf)
+* Alternate Textbook: [https://math.hws.edu/javanotes/](https://math.hws.edu/javanotes/)
 
 ## Software
 
