@@ -7,7 +7,9 @@
 
 ## References
 
-* [Think Java as .pdf](https://greenteapress.com/thinkjava6/thinkjava.pdf)
+* Think Java
+  * [Link to online text](https://greenteapress.com/thinkjava7/html/)
+  * [As .pdf and other formats](https://open.umn.edu/opentextbooks/textbooks/285)
 * Alternate Textbook: [https://math.hws.edu/javanotes/](https://math.hws.edu/javanotes/)
 
 ## Software
