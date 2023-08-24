@@ -1,6 +1,8 @@
 %!TEX program = xelatex
 \documentclass[letterpaper,12pt]{exam}
 \usepackage{../videoNotes}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 
 \newcommand{\unit}{Unit 00}
 \pagestyle{headandfoot}
@@ -21,29 +23,7 @@
 \end{samepage}
 
 \begin{samepage}
-	\question 
-	\vspace{5mm}
-\end{samepage}
-
-
-\begin{samepage}
-\question Why is it often handy to have two windows open while writing scripts? 
-\vspace{5mm}
-\end{samepage}
-
-\begin{samepage}
-\question What was the \code{sed} command used for in the script? (That is, what did it accomplish?)
-\vspace{5mm}
-\end{samepage}
-
-
-\begin{samepage}
-\question  What was the \code{wc} command used for in the script?
-\vspace{5mm}
-\end{samepage}
-
-\begin{samepage}
-	\question How does this class meet?
+	\question How does this class meet? (Put a \checkmark next to the correct answer)
 	  \begin{itemize}
 		\item \code{In the classroom}
 		\vspace{5mm}
@@ -51,94 +31,83 @@
 		\vspace{5mm}
 		\item \code{Mostly on Zoom, but we have to come to campus for exams and the final}
 		\vspace{5mm}
-		\item \code{}
+	   \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+	\question When are my office hours?  When is this in relation to class?
+	\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+	\question What is the URL for scheduling appointments?
+	\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+	\question Are scheduled appointments online or in my physical office?
+	\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+	\question Is a free version of the textbook available?
+	\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+	\question Can you purchase a physical copy of the paper textbook?
+	\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_010 Required Software \& Hardware} % Unnumbered section
+
+\begin{samepage}
+	\question According to the video, which \textbf{\emph{two}} following things should you do before the first class meeting?
+	  \begin{itemize}
+		\item Install and test Zoom software
+		\vspace{5mm}
+		\item Apply for a student discount on Jetbrains
+		\vspace{5mm}
+		\item Install Java 17
+		\vspace{5mm}
+		\item Install IntelliJ
 		\vspace{5mm}
 	   \end{itemize}
 \end{samepage}
 
-
-\section*{\unit\_015 --- More Hardware Information}
+\begin{samepage}
+	\question Why do you need access to a printer for this course?
+	\vspace{5mm}
+\end{samepage}
 
 \begin{samepage}
-\question What does each of the following do? 
-\begin{itemize}
-\item \code{lshw}
-\vspace{5mm}
-\item \code{lscpu}
-\vspace{5mm}
-\item \code{lsusb}
-\vspace{5mm}
-\item \code{lsblk}
-\vspace{5mm}
-\item \code{lsdev}
-\vspace{5mm}
-\end{itemize}
+	\question Do you have a scanner or access to a scanner?
+	\vspace{5mm}
 \end{samepage}
-
-\section*{\unit\_020 --- Memory}
 
 \begin{samepage}
-\question What is RAM? 
-\vspace{5mm}
+	\question If you do not have a scanner, then find a scanner app for your phone or tablet.  Test it out.  What software did you use (also specify Android or iPhone).  Ignore this question if you have access to a scanner.
+	\vspace{5mm}
 \end{samepage}
-
-\question What is SWAP on Unix systems?
-\begin{samepage}
-\question How many bytes in a Kilobyte?
-\question How many Kilobytes in a Megabyte?
-\question How many Megabytes in a Gigabyte?
-\question How many Gigabytes in a Terabyte?
-\question How many Terabytes in a Petabyte?
-\end{samepage}
-
-\question What is $2^{10}$?  Are you sick of writing it yet? (don't answer the second question!)
-\vspace{20mm}
-\begin {samepage}
-
-\noindent \textbf{Warstory:}  CPU speed is measured in Hertz.  1 hertz is 1 beat per second.  CPU speeds used to be measured in MHz (Megahertz).  The MHz kept creeping up to 800 MHz, 900MHz, and eventually hit 1000MHz.  This gave advertisers a problem.  Consumers had been trained to think more MHz was good.  So consumer-oriented advertisements would advertise 1000MHz.  But if the computer was being marketed to techies, the same system would be marketed as 1 GHz.  Eventually consumers figured out that they really wanted to have one of those "Gigahertz things" on their computer.  
-\question One day a student brought in a new advertisement for an old computer.  It was a very low price on a computer with one of those "Gigahertz things."  The add said that the CPU was .8 GHz.   What was the speed of this computer in MHz?
-\vspace{15mm}
-
-\end{samepage}
-\begin{samepage}
-\question What is cache?  
-\vspace{5mm}
-\end{samepage}
-
-\question What does the \code{free} command do?
-
-\section*{\unit\_030 --- Processes}
-
-\question What is a process?
-\vspace{10mm}
-
-\question Would this regular expression recognize a process id?  \texttt{\textbf{\textquotesingle\^{}[0-9]\$\textquotesingle}}?  Explain your answer.
-\vspace{10mm}
-
-\question What command shows processes associated with the current terminal session?
-\vspace{5mm}
-
-\question What command shows all processes being run by the user, even if they are not associated with this terminal?
-\vspace{5mm}
-
-\noindent Comment:  In the video I didn't really explain what the \code{nice} command does.  Let's say you have a big program that might take several minutes or hours to run.  You may plan to do something like take a coffee break and come back later to see the results.  In that case you might use nice to put a low priority on your process.  That way other users of the system would not be slowed down.
-
-\section*{X11 server}
 
 \begin{samepage}
-\question What is X-11 forwarding? 
-\vspace{5mm}
+	\question Why does the instructor recommend the use of headset for use during class?
+	\vspace{5mm}
 \end{samepage}
-\noindent Comment:  The heading "Who needs X11?" should be "Who needs to install an X11 server"
+\section*{\unit\_030 The Course} % Unnumbered section
 
-\noindent Comment The Windows 10 X11 server thing does not seem to be working.  The current news is that it will be working in Windows 11.  We'll see.
+
 
 \end{questions}
-\noindent 
+\hrule
+\vspace{5mm}
+\noindent After you have completed all the answers, scan this document into a .pdf file, and upload the .pdf file to the CSC 187 course in Canvas. 
+\vspace{5mm}
+\hrule
 
 \begin{figure}[b]\label{end}
 	\center
 	\includegraphics[width=1in]{../duke.png}
-	%{\center{By Maxo based on the work File:Tux-G2.png}}
+	%{\center{Image source is https://commons.wikimedia.org/wiki/File:Duke_Wave.png}
 \end{figure}
 \end{document}

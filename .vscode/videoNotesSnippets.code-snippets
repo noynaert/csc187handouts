@@ -32,7 +32,7 @@
 		"scope": "latex,LaTeX",
 	    "prefix": "vns",
 		"body": [
-			"\\section*{\\unit\\_$1} % Unnumberd section",
+			"\\section*{\\unit\\_$1} % Unnumbered section",
 			""
 		]
 		"description":"video notes section"
@@ -57,5 +57,29 @@
 			""
 		],
 		"description":"Generic video notes MC question"
+	},
+	"Video Notes bold":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vnbold",
+		"body": "\\textbf{$1}",
+		"description":"bold"
+	},
+	"Video Notes italics":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vnitalics",
+		"body": "\\emph{$1}",
+		"description":"bold"
+	},
+	"Video Notes bold plus italics":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vnbi",
+		"body": "\\textbf{\\emph{$1}}",
+		"description":"bold"
+	},
+	"Video Notes blank":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vn_blank",
+		"body": "\\rule{20mm}{0.15mm}",
+		"description":"bold"
 	}
 }
