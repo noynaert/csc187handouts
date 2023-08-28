@@ -4,6 +4,10 @@
 * Intranet
   * [Student](https://intranet.missouriwestern.edu/students/)
   * [Faculty / Staff](https://intranet.missouriwestern.edu/faculty-staff/)
+* [Handout Repository on Github](https://github.com/noynaert/csc187handouts)
+* Panopto
+  * [Class Sessions](https://mwsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=924edf2a-be9e-43f8-be94-b0690022873b)
+  * [Handout Videos](https://mwsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4f1460bd-e40c-4704-b888-b0690022cb5a)
 
 ## References
 
