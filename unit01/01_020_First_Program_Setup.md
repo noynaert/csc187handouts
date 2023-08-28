@@ -22,5 +22,8 @@ To start, you will create a "Java Class" in the folder labeled "src".
 * Proper Java style requires that class names must be capitalized.  The IDE will allow you to create them in lower case.  They will compile properly.  But it is bad style.
 * A new file is created with the file name "Print.java"
 ![creating the class](!images/../images/PrintingClass.png)
+* Java requires that each `public` class must be in a file that has the same name as the class.
+  * The file name will need to end in .java
+  * The capitalization of the file name must match the capitalization of the class.
 
 Your code should now look like this|The file structure is like this: ![public class Print](images/theClass.png)
