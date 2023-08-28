@@ -61,10 +61,10 @@ The escaped characters all start with a backslash ( \ ) symbol
 
 character | Meaning
 :---: | :---
-\n | New Line
-\t | Tab
-\" | Double Quotes
-\\ | Backslash
+&#92;n | New Line
+&#92;t | Tab
+&#92;" | Double Quotes
+&#92;&#92; | Backslash
 
 ### The Remaining Escaped Characters
 
