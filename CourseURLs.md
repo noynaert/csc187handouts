@@ -20,6 +20,15 @@
 
 ### Java Compiler and Run Time Environment
 
+You can check your computer for Java.  Run the following commands at the command line.
+
+```text
+java --version
+javac --version
+```
+
+Both commands should show version 17 (or later)
+
 #### Linux
 
 I suggest using the default JRE and JDK for your operating system.  The following should work for Debian, Ubuntu, and their downstream distributions:
