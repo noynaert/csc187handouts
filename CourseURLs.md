@@ -51,4 +51,7 @@ Although I favor the openJDK and openJRE, the Oracle installer seem easiest to i
 
 First, register your MWSU account.  This will give you free access to the "Ultimate" version of IntelliJ.
 
+* Set up a JetBrains account at [https://account.jetbrains.com/login](https://account.jetbrains.com/login)  Be sure to use your @missouriwestern.edu address.
+* Apply for a student account at [https://www.jetbrains.com/shop/eform/students/](https://www.jetbrains.com/shop/eform/students/)
+
 Go to [https://www.jetbrains.com/idea/download/?section=linux](https://www.jetbrains.com/idea/download/).  Download and install the version appropriate for your operating system
