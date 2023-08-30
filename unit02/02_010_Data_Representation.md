@@ -32,4 +32,4 @@ bits (n)| $2^n$
 16 | 65536
 20 | 1,048,576 (about a million or a megabit)
 30 | 1,073,741,824 (about a billion or a gigabit)
-32 | 429,4967,296
+32 | 4,294,967,296 (about 4 billion)
