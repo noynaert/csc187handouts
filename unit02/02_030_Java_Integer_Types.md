@@ -2,7 +2,7 @@
 
 Type|Bits|Bytes|Range
 :---|:---:|:---:|:---
-byte | 8 | -127 through 128
+byte | 8 | -128 through 127
 short|16|2|-32,768 through 32,767
 **int**|32|4|-2,147,483,648 through 2,147,483,647 (roughly, -2 billion through 2 billion)
 long|64|8|-9,223,372,036,854,775,808 through 9,223,372,036,854,775,807 (roughly, a ridiculously large number)

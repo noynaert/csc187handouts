@@ -20,6 +20,21 @@ Do not think of the = sign as an "equals" sign.  Think of it as a replacement sy
 * A variable appears on the left side of the = sign.  
 * The statement works from right to left.  In other words, the value of the expression on the right of the = sign is calculated, then the value is placed in the variable.
 
+
+### Algebra vs Java
+
+Think of the following as an algebra expression.  Can you solve for x?
+
+$x = x + 1$
+
+Now think about the following Java statement
+
+```java
+x = x + 1
+```
+In algebra, x=x+1 cannot be solved.  There is no value of x that would make the statement true.  
+
+But in Java, x=x+1 is a very common statement.  In fact, it is so common that we have a shorthand for it.  In java, it would mean to add 1 to the value of x, and then store the new value in x.
 ## About identifiers
 
 Identifiers are used all over the place in Java and most programming languages.  Java style has several requirements.  Some are syntax and others are style
