@@ -9,6 +9,10 @@
   * [Class Sessions](https://mwsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=924edf2a-be9e-43f8-be94-b0690022873b)
   * [Handout Videos](https://mwsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4f1460bd-e40c-4704-b888-b0690022cb5a)
 
+Book an appointment for a zoom meeting (please give me up to 24 hours to respond)
+
+* [https://noynaert.fyi/appointment](https://noynaert.fyi/appointment)
+  
 ## References
 
 * Think Java
