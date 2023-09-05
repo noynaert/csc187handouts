@@ -10,8 +10,6 @@
 
 ##### How Class variables are represented
 
-
-
 ## The String API
 
 ## Strings in Java are "immutable"
