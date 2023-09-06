@@ -6,13 +6,14 @@ Printf was used to format printing in C. Over time it became very sophisticated 
 
 But C influenced everything. Most coding systems have incorporated printf and all of its intricacies. So knowing printf will serve you well in most fields of technology.
 
-## `%d`, `%f`, and `%s`
+## `%d`, `%f`, `%s`, and `%c`
 
 The three key things to learn are %d, %f, and %s. There are a lot of other format specifiers. There is a lot of stuff you can add to %d and %f. But if you just know `%d`, `%f`, and `%s` you will be covered in the majority of situations.
 
 - `%d` -- Used for all **_decimal_** integers (int, byte, short, long). The d stands for "decimal."
 - `%f` -- Used for all floating point numbers. In Java this would be double and float
 - `%s` -- Used for all string variables
+- `%c` -- Used for type char
 
 ### Fill-in-the-blanks
 
