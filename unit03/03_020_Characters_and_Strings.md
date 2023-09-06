@@ -53,18 +53,3 @@ Reasons to know the above:
 
 * manipulating alphabetic sorts
 * Reconstructing much of the ASCII table if you are ever stranded on a desert island.
-
-### The Problem with ASCII
-
-It works well for English.  But it lacks characters for other languages
-
-Extended ASCII
-
-We have an 8th bit.  We can get another 127 characters!  This allows room for accent marks used in Western European languages (French, German, Spanish, Italian, etc).  It also allows for a lot of useful symbols for currency, math, and other common symbols.
-
-The 255 characters is interesting.  It is the "non-breaking space"  It looks like a blank space, but word processors and other software will not use it to word wrap.
-
-![Extended ASCII](images/extended-ascii_5f85365bb4f84-2.gif)
-
-Source [https://www.webopedia.com/definitions/extended-ascii/](https://www.webopedia.com/definitions/extended-ascii/)
-
