@@ -37,7 +37,7 @@
 		]
 		"description":"video notes section"
 	},
-	"Video Notes Test Multiple Choice":{
+	"Video Notes Test Multiple Choice CODE":{
 		"scope": "latex,LaTeX",
 	    "prefix": "vnmc",
 		"body": [
@@ -56,8 +56,30 @@
 			"\\end{samepage}",
 			""
 		],
-		"description":"Generic video notes MC question"
+		"description":"Generic video notes MC question with code"
 	},
+	,
+	"Video Notes Test Multiple Choice":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vnm",
+		"body": [
+			"\\begin{samepage}",
+			"    \\question $1",
+			"      \\begin{itemize}",
+			"        \\item ",
+			"        \\vspace{5mm}",
+			"        \\item ",
+			"        \\vspace{5mm}",
+			"        \\item ",
+			"        \\vspace{5mm}",
+			"        \\item ",
+			"        \\vspace{5mm}",
+			"       \\end{itemize}",
+			"\\end{samepage}",
+			""
+		],
+		"description":"Generic video notes MC question"
+	}
 	"Video Notes bold":{
 		"scope": "latex,LaTeX",
 	    "prefix": "vnbold",
