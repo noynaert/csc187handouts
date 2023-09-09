@@ -27,6 +27,28 @@ A class describes two different things.
 * One is the data itself. The data may be primitive data types or other classes. 
 * The other is a list of the operations that you can perform on that type of data.
 
+## Declaring variables
+
+```java
+String greeting;
+String name;
+
+greeting = "Hello";
+name = "Bob;
+
+System.out.printf("%s, %s\n",greeting,name);  
+```
+
+## Objects
+
+An `object` is a variable that holds the data for a class.  
+
+### Instance
+
+"An object is an instance of a class."
+
+This is a fancy way of saying a variable has been declared and has been given a value.
+
 ## The Java API
 
 All classes are at [https://docs.oracle.com/en/java/javase/17/docs/api/allclasses-index.html](https://docs.oracle.com/en/java/javase/17/docs/api/allclasses-index.html)  Then use the local search bar.
