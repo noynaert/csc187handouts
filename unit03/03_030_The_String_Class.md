@@ -9,3 +9,14 @@ Java was designed to make String handling "safe"
   
 ## The String API
 
+Note the return type
+
+Note the arguments.  The function may be repeated with different types of arguments.
+
+Note whether the Methods are "static"  
+
+* length()
+* trim()
+* charAt()
+* toUpperCase()
+* toLowerCase()
