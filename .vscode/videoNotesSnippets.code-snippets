@@ -104,4 +104,23 @@
 		"body": "\\rule{20mm}{0.15mm}",
 		"description":"bold"
 	}
-}
+},
+"Video Notes Test Question Table":{
+		"scope": "latex,LaTeX",
+	    "prefix": "vnt",
+		"body": [
+			"\\begin{samepage}",
+			"    \\question $1",
+				"\begin{center}
+				"\begin{tabular}{ c c c }",
+				" cell1 & cell2 & cell3 \\",
+				" cell4 & cell5 & cell6 \\",  
+				" cell7 & cell8 & cell9",    
+				"\end{tabular}",
+				"\end{center}",
+			"  \\vspace{5mm}",
+			"\\end{samepage}",
+			""
+		],
+		"description":"Generic video notes question with Table"
+	}

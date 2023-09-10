@@ -1,4 +1,4 @@
-# 03.060 Scanner for Keyboard Input
+# 03.080 Scanner for Keyboard Input
 
 ```java
 import java.util.Scanner;
