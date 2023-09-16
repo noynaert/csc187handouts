@@ -32,5 +32,6 @@ public static void main(String [] args){
 ## Advantages of methods
 
 * Big problem can be divided into smaller tasks
+* Methods may be used multiple times.
 * The method can be tested thoroughly
 * The task may be assigned to one person or team
