@@ -28,3 +28,9 @@ public static void main(String [] args){
   * As a very loose general rule of thumb:
     * Variable names are nouns.  They represent things.
     * Method names are verbs or contain a verb.  Functions "do stuff."
+
+## Advantages of methods
+
+* Big problem can be divided into smaller tasks
+* The method can be tested thoroughly
+* The task may be assigned to one person or team
