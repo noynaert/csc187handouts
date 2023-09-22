@@ -27,7 +27,7 @@ Casting is done by putting the destination data type in parenthesis in front of 
 
 ```java
         int number = 50;
-        byte tiny = (byte)number;
+        small little = (byte)number;
         byte b = (byte)number;
 ```
 
