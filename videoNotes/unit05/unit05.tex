@@ -1,0 +1,70 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{../videoNotes}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+\newcommand{\unit}{Unit 05}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 187 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 187 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{\unit\_010 --- Casting} % Unnumbered section
+
+\begin{questions}
+\begin{samepage}
+    \question Is it possible to cast between two primitives?
+    \vspace{5mm}
+\end{samepage}
+
+
+\begin{samepage}
+    \question Is it possible to cast between a primitive and a class?  
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Which is more dangerous, narrowing or widening?  Why is it more dangerous?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    
+    \question Given the following declarations:
+    \begin{verbatim}
+        boolean flag;  
+        byte   tiny;   
+        short  small;  
+        char   ch;     
+        int    normal; 
+        long   huge;   
+        float  x;      
+        double xx;     
+      \end{verbatim}
+
+      Label each of the following as either Widening or Narrowing (you may just write 'W' or 'N' on the left side.)  If an explicit cast would be required, then write the cast.
+    \begin{itemize}
+        \item \code{ small = tiny;}
+        \vspace{5mm}
+        \item \code{ char = normal;}
+        \vspace{5mm}
+        \item \code{ double = tiny;}
+        \vspace{5mm}
+        \item \code{ tiny = double;}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{samepage}
+	\question Do you have any other questions?
+	\vspace{30mm}
+\end{samepage}
+
+\end{questions}
+
+\end{document}
