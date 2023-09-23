@@ -1,4 +1,4 @@
-# 04.010 Numeric Literals
+# 04.020 Numeric Literals
 
 Numeric literals are numbers we type.  Examples of common literals would be 0, 1000, -17, 3.14, 0.0, and -99.0.
 
