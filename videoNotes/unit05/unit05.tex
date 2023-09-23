@@ -13,6 +13,7 @@
 
 \begin{document}
 \section*{\unit\_010 --- Casting} % Unnumbered section
+\noindent \textbf{Video Length 12:30}
 
 \begin{questions}
 \begin{samepage}
@@ -56,6 +57,170 @@
         \item \code{ tiny = double;}
         \vspace{5mm}
        \end{itemize}
+\end{samepage}
+
+\section*{\unit\_020 Numerical Literals} % Unnumbered section
+\noindent \textbf{Video Length 15:30}
+
+\begin{samepage}
+    \question Integers may be written in three different numeric bases.  List each of the three.  What is the default?
+      \begin{itemize}
+        \item 
+        \vspace{5mm}
+        \item 
+        \vspace{5mm}
+        \item 
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question Indicate whether each of the following is in decimal, Hexadecimal, or Octal.
+      \begin{itemize}
+        \item 1234
+        \vspace{5mm}
+        \item 0x1234
+        \vspace{5mm}
+        \item 01234
+        \vspace{5mm}
+        \item 02
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question How are \code{long} integer literals indicated?  Does it matter if you use upper or lower case?  Explain your answer.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Do real number literals default to \code{float} or \code{double}?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question How are \code{float} literals indicated?  Does it matter if you use upper or lower case?  Explain your answer.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Is each of the following valid?  If it is not valid, explain why.  (You may want to try to type the statements into IntelliJ to check your answers.)
+      \begin{itemize}
+        \item \code{int i = 300,000,000,000;} 
+        \vspace{5mm}
+        \item \code{int i = 300000000000;} 
+        \vspace{5mm}
+        \item \code{int i = 300L;} 
+        \vspace{5mm}
+        \item \code{byte b = 128;} 
+        \vspace{5mm}
+        \item \code{short little = 30000;}
+        \vspace{5mm}
+        \item \code{int i = 3.0e15;}
+        \vspace{5mm}
+        \item \code{float f = 3.1416;} 
+        \vspace{5mm}
+        \item \code{float f = 4.14e5;} 
+        \vspace{5mm}
+        \item \code{double d = 4.14e-9;}
+        \vspace{5mm}
+        \item \code{int i = 3.0e10;}
+        \vspace{5mm}
+    \end{itemize}
+\end{samepage}
+
+
+
+
+\begin{samepage}
+    \question Rewrite the following in Java's version of scientific notation.  $4.32  \times  10^{204}$
+    \vspace{5mm}
+\end{samepage}
+
+
+
+\section*{\unit\_021 OPTIONAL JavaFX including hex literals} % Unnumbered section
+\noindent \textbf{Video Length 38:15}
+
+This section is optional.  There will be no test questions from this section. It demonstrates a use for hex notation to represent colors.  It may be of interest to people who have an interest in GUI programming.
+
+\section*{\unit\_030 Constants} % Unnumbered section
+\noindent \textbf{Video Length 9:50}
+
+\begin{samepage}
+    \question What is the difference between the reserved word \code{const} and \code{final}?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is the capitalization standard for constants in Java?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Why are constants often declared as class variables rather than in methods?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Declare a constant representing the "Golden Ratio."  The value of the Golden Ratio is approximately 1.6180.  The constant should be declared as a class variable that may be used inside the static methods of the class.
+    \vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_040 The Math Class} % Unnumbered section
+\noindent \textbf{Video Length 20:35}
+
+\begin{samepage}
+    \question What two constants are declared in the Math class?
+      \begin{itemize}
+        \item 
+        \vspace{5mm}
+        \item 
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question Write a statement that prints the absolute value of |-77|
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write a statement that prints the square root of the value in the variable \code{x}.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write a statement that prints the maximum of the value stored in the variables \code{a} and \code{b}?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write a statement that prints the minimum of the value stored in the variables \code{a} and \code{b}?
+    \vspace{5mm}
+\end{samepage}
+
+
+\begin{samepage}
+    \question What data type do the Math.abs(), Math.min(), and Math.max() methods return (sort of a trick question).
+    \vspace{5mm}
+\end{samepage}
+
+\noindent You will need to look at the Math API to answer the following questions.  They may not have been answered in the video.  Being able to read the Math API is important!
+
+\begin{samepage}
+    \question What data type do most common math functions such as Math.log(), Math.sin(), and Math.cos()?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Are there any elements of the Math class that are not static?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question The common trigonometry methods include sin(), cos(), tan() an acos().  Are the arguments in degrees or radians?  Note: You might need to click on the method to find the answer to this question.  It emphasizes that @param is important in JavaDoc comments.  Also, I don't expect everyone to know the trig functions.  But you should still be able to read the documentation and answer a question like this one.
+    \vspace{5mm}
 \end{samepage}
 
 

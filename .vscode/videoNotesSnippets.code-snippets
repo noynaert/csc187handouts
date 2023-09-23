@@ -33,6 +33,7 @@
 	    "prefix": "vns",
 		"body": [
 			"\\section*{\\unit\\_$1} % Unnumbered section",
+			"\\noindent \\textbf{Video Length $2}",
 			""
 		]
 		"description":"video notes section"
