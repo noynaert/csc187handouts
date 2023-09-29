@@ -35,3 +35,5 @@ String: ""  is blank: true
 String: "      "  is empty: false
 String: "      "  is blank: true
 ```
+
+# Scanner class "has" methods.
