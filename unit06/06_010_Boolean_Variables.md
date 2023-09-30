@@ -36,4 +36,13 @@ String: "      "  is empty: false
 String: "      "  is blank: true
 ```
 
-# Scanner class "has" methods.
+## Using boolean variables
+
+Boolean variables are very useful, especially when dealing with complicated logic situations.  
+
+Keep boolean variables meaningful.  Construct them so they can be used as if they are parts of sentences.
+
+* The "is" format is useful.  For example `isBlank()`
+* Sometimes word like "success" and "failure" make good boolean variable names.
+* Avoid reverse logic when possible.  
+* Make variable names say what they mean when true.
