@@ -2,7 +2,7 @@
 
 &nbsp;|&nbsp;
 :---|:---:
-George Book developed a form of algebra based on true / false.  It turned out to be perfect for use on computers based on bits.|![Picture of George Boole](images/engraving-George-Boole.webp)|
+George Boole developed a form of algebra based on true / false.  It turned out to be perfect for use on computers based on bits.|![Picture of George Boole](images/engraving-George-Boole.webp)|
 &nbsp;|&nbsp;
 
 ## Boolean Variables
