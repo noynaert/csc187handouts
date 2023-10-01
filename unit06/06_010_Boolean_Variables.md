@@ -8,6 +8,9 @@ George Book developed a form of algebra based on true / false.  It turned out to
 ## Boolean Variables
 
 * boolean is a primitive data type.  It is not capitalized because it is not a class
+* There are only two possible values.
+  * `true`
+  * `false`
 * `false` is the "zeroish" value
     * in the original C, there was no boolean class.  Instead, integers were used.  0 was false and anything non-zero is true.  This does *not* work in Java, but sometimes knowing this helps understand weird things in java.
 
@@ -35,6 +38,19 @@ String: ""  is blank: true
 String: "      "  is empty: false
 String: "      "  is blank: true
 ```
+
+### Other String booleans
+
+Note the readability of the following.  The names suggest a "boolean quality."
+
+* contains()
+* endsWith()
+* equals()
+* equalsIgnoreCase()
+* startsWith()
+
+
+
 
 ## Using boolean variables
 

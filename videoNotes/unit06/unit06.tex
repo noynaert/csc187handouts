@@ -1,0 +1,103 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{../videoNotes}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+
+\newcommand{\unit}{Unit 06}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 187 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 187 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{\unit\_005a -- Deconstructing Scanner} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 25:40}}
+
+\begin{questions}
+\begin{samepage}
+    \question What is \texttt{\textbf{System.in}} according the the System API?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Given the following statement, explain what each part is.  (I answered the \texttt{\textbf{new Scanner}} question for you.)
+    \begin{verbatim}
+        Scanner input = new Scanner(System.in);
+    \end{verbatim}
+    \begin{itemize}
+        \item \code{Scanner} 
+        \vspace{5mm}
+        \item \code{input}
+        \vspace{5mm}
+        \item \code{new Scanner} {\LARGE\color{Blue}\fontfamily{qzc}\selectfont calls the constructor for the Scanner class}
+        \vspace{5mm}
+        \item \code{System.in}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\section*{\unit\_005b Reading from a File} % Unnumbered section
+\noindent \textbf{Video Length }
+
+\begin{samepage}
+    \question What two classes are used when reading input from a file in Java?
+      \begin{itemize}
+        \item [$\rightarrow$]
+        \vspace{5mm}
+        \item [$\rightarrow$]
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question You will not be asked to write a try{}...catch{} block on the exam.  However, you should understand its parts.\\
+    \\What causes the statements in the catch(){} part to be executed?
+    \begin{enumerate}
+        \item The catch operates after the try block finishes
+        \vspace{5mm}
+        \item The catch happens after the method ends.
+        \vspace{5mm}
+        \item The catch only happens if there is an error in the try{} block.  For example, catch would execute if the try block tried to open a file, but the file was not found.
+        \vspace{5mm}
+        \item The catch block executes before any other code in the method.
+        \vspace{5mm}
+       \end{enumerate}
+\end{samepage}
+
+\section*{\unit\_010 Reading from a File} % Unnumbered section
+\noindent \textbf{Video Length 7:10 }
+
+
+\begin{samepage}
+    \question Why is the Scanner declared outside of the try{} block?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write the code needed to open a file named "data.txt".  The file name should be set in a variable.  Read a string from the file, and then close the file.  Do not write the try/catch block (pretend there is no need for it).
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is System.err?  How does IntelliJ treat it differently than System.out?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Does the catch block always terminate the program if it is executed?  If not, what do you have to do to force the program to end in the catch() block?
+    \vspace{5mm}
+\end{samepage}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{samepage}
+	\question Comment or ask questions here if there are any issues you would like for the instructor to address.  It is not necessary to answer if you do not have questions.
+	\vspace{30mm}
+\end{samepage}
+
+\end{questions}
+
+\end{document}
