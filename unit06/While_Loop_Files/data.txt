@@ -1,0 +1,11 @@
+Minnisota
+Missouri
+Iowa
+Wyoming
+Michigan
+Illinois
+2023
+3.14159
+true
+New York
+North   Dakota
