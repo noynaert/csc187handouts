@@ -30,3 +30,16 @@ In terms of Boolean Algebra:
 
 For example, ! has the highest precedence.  && is has precedence over ||
 
+Consider $2 + 3 * 4$.  The 3*4 is done first because multiplication has precedence over addition.  If you want the 2+3 to happen first, then you need to write $(2 + 3) * 4$
+
+Consider the following logical operation
+
+```text
+(hours > 60) || (testScore > 80.) && (climbTime < 60.0) 
+```
+
+In the above example && has precedence over ||.  Therefore we would need parenthesis:
+
+```text
+((hours > 60) || (testScore > 80.)) && (climbTime < 60.0) 
+```
