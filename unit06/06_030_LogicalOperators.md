@@ -1,5 +1,11 @@
 # 01.030 Logical Operators
 
+Terms:
+
+* & is called an "ampersand."
+* | is called a "pipe."  It is above the Enter key on most keyboards.
+* ! is an exclamation point.  It is sometimes called a "bang" by programmers.
+
 ## And, Or, Not
 
 There are three logical operators.  They require a boolean values.
