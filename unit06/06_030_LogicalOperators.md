@@ -1,6 +1,6 @@
-# 01.030 Logical Operators
+# 06.030 Logical Operators
 
-Terms:
+## Terms
 
 * & is called an "ampersand."
 * | is called a "pipe."  It is above the Enter key on most keyboards.
