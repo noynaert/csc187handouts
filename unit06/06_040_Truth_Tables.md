@@ -14,8 +14,8 @@
 
 A|!A
 :---:|:---:
-true|false
 false|true
+true|false
 
 ## Or
 
