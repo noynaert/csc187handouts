@@ -19,18 +19,17 @@ true|false
 
 ## Or
 
-You can order off the kid's menu if you are 10 or under ***OR** at least 65.
+Parent tells kid:  I will give you $10 if you clean your room ***OR*** wash the dishes
 
-```java
-boolean kidsMenu;
 
-kidsMenu = age <= 10 || age >= 65;
-
-//You may include parenthesis for readability
-
-kidsMenu = ((age <= 10) || (age >= 65))
-``````
 A|B|A \|\| B
+:---:|:---:|:---:
+false|false|false
+false|true|true
+true|false|true
+true|true|true
+
+Clean Room|Clean Dishes|Gets $10 (or)
 :---:|:---:|:---:
 false|false|false
 false|true|true
@@ -45,6 +44,13 @@ To join the military you must be at least 18, but less than 36.
 boolean canJoin = (age >= 18 && age < 36);
 ```
 A|B|A && B
+:---:|:---:|:---:
+false|false|false
+false|true|false
+true|false|false
+true|true|true
+
+Clean Room|Clean Dishes|Gets $10 (and)
 :---:|:---:|:---:
 false|false|false
 false|true|false
