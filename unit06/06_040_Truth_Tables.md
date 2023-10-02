@@ -38,7 +38,7 @@ true|true|true
 
 ## And
 
-To join the military you must be at least 18, but less than 36.
+Parent tells kid:  I will give you $10 if you clean your room ***AND*** wash the dishes
 
 ```java
 boolean canJoin = (age >= 18 && age < 36);
