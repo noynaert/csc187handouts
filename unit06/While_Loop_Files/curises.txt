@@ -1,7 +1,7 @@
 Name        Cost    Age Days Capacity  Depart   Arrive  Cabin   Line
-Splendor    999.99  18  6    2000      TX       LA  Balcony Holland
+Splendor    999.99  18  6    2000      TX       LA  Balcony     Holland
 Conquest    1000    18  6    2000      BC       CA  OBSTructed  Holland
-Liberty     999.99  17  6    2000      TX       LA  Balcony Holland
+Liberty     999.99  17  6    2000      TX       LA  Balcony     Holland
 Radiance    999.99  18  3    2000      TX       LA  Interior    SilverSea
 Opera       999.99  21  9    3500      TX       LA  Balcony     Holland
 Edge        599.99  18  7    2000       FL      LA  Balcony     Holland
