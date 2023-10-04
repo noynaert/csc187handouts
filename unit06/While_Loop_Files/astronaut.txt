@@ -1,0 +1,18 @@
+* First line is headers (discard it)
+* Height must be 175 through 190 cm.  The range is enclusive of the end-points.
+* Weight must be less than 100 kg.
+* Employer must not be Amazon, Blue Origin, or SpaceX 
+   * The blank in Blue Origin is a non-breaking space, so it is all one string
+   * These are not case sensitive.
+* Name cannot contain an X or x anywhere in the name.
+* Assume the data is correct.  Don't try to error check
+
+
+
+-----------------
+Name    Height  Weight  Employer
+Abe     193     101     Blue Origin
+Xavier  188      97     Cerner
+Chris   175      77     Blue Cross
+Alex    190     100     SpaceX
+Pat     174      88     Amazon
