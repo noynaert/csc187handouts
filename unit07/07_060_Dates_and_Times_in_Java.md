@@ -1,4 +1,4 @@
-# 07.020 Java Dates and Times
+# 07.060 Java Dates and Times
 
 Dates and times are hard.  
 
@@ -32,3 +32,10 @@ For our purposes, a Factory Method is a method that returns an object of the cla
 * now()
 * of() (several forms)
 * parse()  See [https://howtodoinjava.com/java/date-time/localdate-parse-string/](https://howtodoinjava.com/java/date-time/localdate-parse-string/)
+
+## Some of the methods
+
+Times are effectively data type `long` because we are dealing with 64-bit integers
+
+* equals()  //The argument must be the same type
+* isEqual(), isBefore(), isAfter() compare agains same or different date types.

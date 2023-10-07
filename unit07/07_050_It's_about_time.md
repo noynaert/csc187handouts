@@ -1,8 +1,12 @@
-# 07.010 It's About Time
+# 07.050 It's About Time
 
 Dates and times are hard.  
 
+Most early computer languages did not explicitly represent dates.  They would either use three separate variables for month, day, and year, or they would use strings.  It was up to the programmer (or the shop) to develop functions to manipulate strings.
+
 ## About Dates
+
+Dates can be handled fairly easily as long as dates are handled "locally."  A program was usually written to be used by a company in one country or region.  The conventions about dates in that region could be coded into the programs.
 
 ### International Dates
 
@@ -41,3 +45,10 @@ The number of seconds is counted in seconds.  Originally this was stored in a 32
 * Epoch (measuring time from midnight on January 1, 1970)
 * Millisecond   There are a thousand milliseconds in a second.
 * Nanosecond There are a billion nanoseconds in a second.
+
+## Time Zones
+
+* Time Zones are based on 0 longitude.  It goes through Greenich, England.
+* Time Zones to the west of England are negative.  Zones to the east are positive.
+* Central Time is GMT -6.  
+* Central Daylight Savings Time is GMT -5.
