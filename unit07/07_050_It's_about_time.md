@@ -40,15 +40,18 @@ The number of seconds is counted in seconds.  Originally this was stored in a 32
 * Most of the problems are likely to be handled.  But there may still be some, especially older file systems.
 * Some of the extra bits are used to store time in milliseconds and nanoseconds.
 
-## Terms
-
-* Epoch (measuring time from midnight on January 1, 1970)
-* Millisecond   There are a thousand milliseconds in a second.
-* Nanosecond There are a billion nanoseconds in a second.
-
 ## Time Zones
 
 * Time Zones are based on 0 longitude.  It goes through Greenich, England.
 * Time Zones to the west of England are negative.  Zones to the east are positive.
 * Central Time is GMT -6.  
 * Central Daylight Savings Time is GMT -5.
+
+## Terms
+
+* Epoch (measuring time from midnight on January 1, 1970)
+* Millisecond   There are a thousand milliseconds in a second.
+* Nanosecond There are a billion nanoseconds in a second.
+* UTC -- Universal Coordinated Time (the current term)
+* GMT -- Greenich Mean Time (the older term for UTC)
+* Zulu Time -- Someone making sure you know that they were in the military.  Same as UTC.
