@@ -10,7 +10,7 @@
 
 There are several variations on the if statement.  This is presenting the general form.
 
-The boolean statement is evaluated before anything else happens.
+The boolean statement is evaluated before the body is executed.
 
 If the expression is true, the block of code in the parenthesis is executed.
 
