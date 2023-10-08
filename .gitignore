@@ -1,3 +1,6 @@
+## IntelliJ
+*.idea
+*.iml
 
 ################### TeX gitignore
 ## Core latex/pdflatex auxiliary files:
