@@ -8,7 +8,7 @@ Dates and times are hard.
   * LocalTime
   * LocalDateTime
 
-## Ways to *instantiate* a class
+## Ways to *instantiate* an object
 
 ### Constructors
 
