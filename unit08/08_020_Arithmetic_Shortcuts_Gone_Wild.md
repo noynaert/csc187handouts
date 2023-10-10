@@ -91,3 +91,70 @@ The output shows that the increment was done ***before*** the addition was done.
 Before, thing is 50 and i is 3
 After, thing is 54 and i is 4
 ```
+
+## A semi-practical application
+
+```java
+        i=0;
+        String word = "Vote";
+        while (i < word.length())
+            System.out.println(word.charAt(i++));
+```
+
+## Style:  Avoiding problems
+
+In Java we use style to avoid problems.  Therefore we are going to avoid doing anything that has been done on this page so far!
+
+There will be two style rules to follow:
+
+* Use the increment and decrement operators on a line by themselves.  
+  * It avoids confusion when reading
+  * If they are on a line by themselves, there is no difference between the prefix and postfix versions
+* Only use the increment and decrement operators in certain situations where they are required.
+
+The original examples on this page may be recoded to put the increment and decrement operators on their own lines.  This removes any confusion about what happens.
+
+There is no side effect in the following.  The coding makes it clear that the increment happens ***before*** the addition.
+
+```java
+        int i = 3;
+        int thing = 50 ;
+        System.out.printf("Before, thing is %d and i is %d\n",thing,i);
+        i++;
+        thing = thing + i;
+        System.out.printf("After, thing is %d and i is %d\n",thing,i);
+```
+
+Produces exactly the same output as the following.:
+
+```java
+        int i = 3;
+        int thing = 50 ;
+        System.out.printf("Before, thing is %d and i is %d\n",thing,i);
+        ++i;
+        thing = thing + i;
+        System.out.printf("After, thing is %d and i is %d\n",thing,i);
+```
+
+The following makes it clear that the increment or decrement happens ***after*** the addition.
+
+```java
+        int i = 3;
+        int thing = 50 ;
+        System.out.printf("Before, thing is %d and i is %d\n",thing,i);
+        thing = thing + i;
+        i++;
+        System.out.printf("After, thing is %d and i is %d\n",thing,i);
+```
+
+## These operators only work on variables.
+
+Usually, the increment and decrement are used with integers.  But they may be used with real numbers.
+
+But they can't be used with literals or constants.
+
+```java
+        //why don't these make sense?
+        3++;
+        (i + j)++
+```
