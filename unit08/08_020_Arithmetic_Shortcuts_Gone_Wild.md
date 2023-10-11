@@ -11,7 +11,7 @@ So we have a shortcut for the shortcut.  The above can be reduced to the followi
 
 ```java
 x++;
-y++;
+y--;
 ```
 
 ## The four increment/decrement operators
@@ -23,6 +23,12 @@ y++;
   * ++i
   * --i
 
+### The operators in words
+
+* `i++` means "add 1 to i, but wait until everything else in the statement is done."
+* `i--` means "subtract 1 from i, but wait until everything else in the statement is done."
+* `++i` means "before you do anything else in the statement, add 1 to i."
+* --i means "before you do anything else in the statement, subtract 1 from i."
 ## Programming by side effect (generally a bad thing to do)
 
 A side effect is when a statement does one main task, but it also changes something else at the same time.
