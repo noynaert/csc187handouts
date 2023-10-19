@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8135522a7b16f758",
+        "id": "e825828cafe20300",
         "type": "tabs",
         "children": [
           {
-            "id": "b83b07870215724a",
+            "id": "4659dfb481138f80",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "unit09/09_030_Integer_Wrapper.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "unit09/09_030_Integer_Wrapper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "unit09/09_030_Integer_Wrapper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "unit09/09_030_Integer_Wrapper.md"
+              }
             }
           }
         ]
@@ -138,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b83b07870215724a",
+  "active": "4659dfb481138f80",
   "lastOpenFiles": [
     "unit09/09_020_Wrapper_Classes.md",
+    "unit09/09_030_Integer_Wrapper.md",
     "rapper.png",
     "Untitled",
     "unit09/images",

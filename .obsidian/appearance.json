@@ -1,5 +1,6 @@
 {
-  "accentColor": "#f5e85c",
+  "accentColor": "#5c96f5",
   "theme": "moonstone",
-  "monospaceFontFamily": "Courier New"
+  "monospaceFontFamily": "Courier New",
+  "baseFontSize": 23
 }
