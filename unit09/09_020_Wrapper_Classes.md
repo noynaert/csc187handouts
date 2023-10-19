@@ -1,3 +1,4 @@
+# 09.020 Wrapper Classes
 
 ## Two purposes
 
@@ -14,7 +15,7 @@ int|	Integer **⚠️**
 long|	Long
 float|	Float
 double|	Double
-boolean|	Boolean
+boolean| Boolean
 char|	Character **⚠️**
 
 ⚠️ Note that the Wrapper class is spelled out for `int` and `char` wrapper classes ⚠️
