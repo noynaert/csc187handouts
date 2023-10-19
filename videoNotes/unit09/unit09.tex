@@ -1,0 +1,279 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{../videoNotes}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+
+\newcommand{\unit}{Unit 09}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 187 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 187 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{\unit\_010 -- .readLine() } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_020 -- Wrapper Classes } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_030 -- Integer Wrapper} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_040 -- Double Wrapper } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_050 -- Declaring Arrays} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_060 -- Returning Arrays from Methods} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_070 -- Call by Value } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+\section*{\unit\_010 -- } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+
+\section*{\unit\_010 -- } % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length :}}
+
+
+\begin{questions}
+\begin{samepage}
+    \question Rewrite each of the following using the shortcut assignment operators.
+      \begin{itemize}
+        \item \code{n = n +1;}
+        \vspace{5mm}
+        \item \code{count = count - 2;}
+        \vspace{5mm}
+        \item \code{number = number * 2;}
+        \vspace{5mm}
+        \item \code{i = i / 2;}
+        \vspace{5mm}
+        \item \code{q = 5 + q;}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question Which of the shortcut operators in this unit is used most often.
+    \vspace{5mm}
+\end{samepage}
+
+
+\section*{\unit\_020 -- Shortcut Operators Gone Wild!} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 24:04}}
+
+\begin{samepage}
+    \question Rewrite the following statements using the increment and decrement operators.
+      \begin{itemize}
+        \item \code{i += 1;}
+        \vspace{5mm}
+        \item \code{count -= 1;}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question Rewrite the following statements using the increment and decrement operators. \textbf{\emph{But this time use two different increment and decrement operators.}}
+      \begin{itemize}
+        \item \code{i += 1;}
+        \vspace{5mm}
+        \item \code{count -= 1;}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question In your own words, describe the difference between prefix and postfix operators.
+    \vspace{25mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is a side effect in programming?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What would be printed by the following loop?
+    \begin{verbatim}
+    int i = 0;
+    while(i < 5){
+        System.out.print(i++);
+    }
+    \end{verbatim}
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What are two ways to protect your code from unintended side effects when using increment and decrement operators?
+      \begin{itemize}
+        \item [$\rightarrow$]
+        \vspace{5mm}
+        \item [$\rightarrow$]
+        \vspace{5mm}
+           \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question What is the practical difference between i++ and ++i whe the increment operators are the only items in the statement?  (trick question)
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question The beginning of the video made it look like the increment operator was just a short cut for the +=1 operation.  Explain why the increment and decrement operators are not really just shortcuts of shortcuts.  (This is not discussed explicitly in the videos, so you may need to think about it.)
+    \vspace{5mm}
+\end{samepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{samepage}
+    \begin{center}
+    \rule{0.8\textwidth}{.4pt}
+    \end{center}
+	\question Comment or ask questions here if there are any issues you would like for the instructor to address.  It is not necessary to answer if you do not have questions.
+	\vspace{30mm}
+\end{samepage}
+\section*{\unit\_030 -- While loops revisited} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 6:10}}
+\begin{samepage}
+    \question What is a pretest loop?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Is a while()\{\} loop a pretest or a post test loop?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question In a pretest loop it is easy to skip the body of the loop and not execute it.  Does skipping the body of the loop indicate there is a problem?  Explain your answer.
+    \vspace{5mm}
+\end{samepage}
+
+
+\section*{\unit\_040 -- do while loops} 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 6:03}}
+\begin{samepage}
+    \question Is a do{}while() loop a pretest or a posttest loop?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Are the curly braces always necessary on a do while loop?  If they are not required, explain when they are not required.
+    \vspace{5mm}
+\end{samepage}
+
+
+\begin{samepage}
+    \question What is wrong with the following block of code?  What would you do to fix it?
+    \begin{verbatim}
+        do{
+            double x = Math.random();
+            System.out.println(x);
+        }while(x < 0.50);
+    \end{verbatim}
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question Write a do while loop that asks the user to type a word.  They should type "Done" when the user is finished.  Ignore the case when checking done.  Sample output is shown below.
+    \begin{verbatim}
+        Type a word (or "done" to end): dog 
+        You typed dog
+        Type a word (or "done" to end): cat 
+        You typed cat
+        Type a word (or "done" to end):DONE 
+    \end{verbatim}     
+       \vspace{15mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is the minimum number of times the body of a do{} while() loop executes?
+    \vspace{5mm}
+\end{samepage}
+
+
+
+\section*{\unit\_050 -- Counting} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 6:15}}
+
+\begin{samepage}
+    \question When you are writing a counting loop, what value is the counter variable initialized to?  Why is it always initialized to this value?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question (Review, not covered in this video)  In the video, i++ was used to increment the counter.  Could I have used ++i?  Would it have made a difference in the count?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question In the video, \texttt{\textbf{r}} was not needed outside the loop.  I didn't print it or use it in any way.  So why did I have to declare it outside the loop?
+    \vspace{5mm}
+\end{samepage}
+
+
+
+\section*{\unit\_060 -- Splitting Strings} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 7:01}}
+
+\begin{samepage}
+    \question What does the split[] method return?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is "regex" short for?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Does a simple string like ":" work when a regular expression is required?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Why do you think I introduced counters before we started this video?
+    \vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_070 -- For Loops} % Unnumbered section
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 5:44}}
+
+\begin{samepage}
+    \question The for() loop is shorthand for another type of loop.  What type of loop does the for loop substitute?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question The for loop requires three values.  What symbol separates the three values?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question The for loop requires three values.  What are the three values from first to last?
+      \begin{enumerate}
+        \item 
+        \vspace{5mm}
+        \item 
+        \vspace{5mm}
+        \item 
+        \vspace{5mm}
+       \end{enumerate}
+\end{samepage}
+\begin{samepage}
+    \question If there is an array of strings called \texttt{\textbf{words}}.  Write a for loop that would print the strings.  Remember that there are \texttt{\textbf{words.length}} words on the list.
+    \vspace{5mm}
+\end{samepage}
+
+
+\begin{samepage}
+    \question 
+    \vspace{5mm}
+\end{samepage}
+
+
+\end{questions}
+
+\end{document}

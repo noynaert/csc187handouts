@@ -14,3 +14,18 @@ Return type|methodName|Argument|Description
 static int|parseInt()|String|Parses the string argument as a signed decimal integer.
 static int|max()|int,int|Returns the greater of two int values as if by calling Math.max.
 
+## Parsing an intiger
+
+```java
+  String token = "+1234";
+        int number = 0;
+        try {
+            number = Integer.parseInt(token);
+        } catch (NumberFormatException e) {
+            number = Integer.MIN_VALUE;
+        }
+        if (number != Integer.MIN_VALUE)
+            System.out.println("The number is " + number);
+        else
+            System.out.println("The number is invalid.");
+```
