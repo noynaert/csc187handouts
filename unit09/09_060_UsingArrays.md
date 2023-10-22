@@ -10,6 +10,6 @@
 * 'i' is used as an index to an array
   * If there is nesting, the, j and k are used as indexes for the inner loops.
 
-If an array is not full, we usually assume it is filled from the 0 index upward.  
+If an array is not full, we usually assume it is filled from the 0 index upward.  This is called a "compact" or "nearly complete" array.
 
 There are "sparse arrays" where values are scattered in the array, but in most cases we avoid that kind of situation.
