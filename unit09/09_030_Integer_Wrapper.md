@@ -14,7 +14,7 @@ Return type|methodName|Argument|Description
 static int|max()|int,int|Returns the greater of two int values as if by calling Math.max.
 static int|parseInt()|String|Parses the string argument as a signed decimal integer.
 
-## Parsing an intiger
+## Parsing an integer
 
 ```java
  public static int parseInt(String s){
