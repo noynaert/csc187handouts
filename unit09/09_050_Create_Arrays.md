@@ -10,6 +10,7 @@ Arrays are roughly analogous to the concept of lists in Java.
          private static final int MAXIMUM_PHYSICAL_SIZE = 10;
          ...
          double[] list = new double[MAXIMUM_PHYSICAL_SIZE];
+         String[] words = new String[MAXIMUM_PHYSICAL_SIZE];
          LocalDate[] dates = new LocalDate[MAXIMUM_PHYSICAL_SIZE];
 
 ```
@@ -32,3 +33,4 @@ Arrays are roughly analogous to the concept of lists in Java.
 * When an array is created, the space is allocated whether the array is full or not.
 * Array contents are set to a "zeroish" value.
 * Arrays have a property called `.length`.  It does not have () because it is not a method.
+* The array variable stores the address where the array is stored.  This is different than with primitives because the actual value is stored for primitives.
