@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit09/09_060_UsingArrays.md",
+                "file": "unit09/09_080_Arrays_as_Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit09/09_060_UsingArrays.md",
+                "file": "unit09/09_080_Arrays_as_Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit09/09_060_UsingArrays.md",
+                "file": "unit09/09_080_Arrays_as_Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit09/09_060_UsingArrays.md"
+                "file": "unit09/09_080_Arrays_as_Parameters.md"
               }
             }
           }
@@ -148,6 +149,9 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
+    "unit09/09_070_Call_by_Value.md",
+    "2023-10-22.md",
+    "unit09/09_060_UsingArrays.md",
     "videoNotes/unit09/unit09.synctex(busy)",
     "videoNotes/unit09/pdflatex2013035.fls",
     "videoNotes/unit09/pdflatex2012986.fls",
@@ -158,7 +162,6 @@
     "videoNotes/unit09/pdflatex2012212.fls",
     "videoNotes/unit09/pdflatex2012205.fls",
     "videoNotes/unit09/pdflatex2012162.fls",
-    "videoNotes/unit09/pdflatex2011557.fls",
     "unit09/09_040_Double_Wrapper.md",
     "unit09/09_030_Integer_Wrapper.md",
     "unit09/09_020_Wrapper_Classes.md",
@@ -171,7 +174,6 @@
     "unit09/09_090_CommonTask_Filling_an_array.md",
     "unit09/09_090_Common_Task_Reading_an_array.md",
     "unit09/09_080_Arrays_as_Parameters.md",
-    "unit09/09_070_Call_by_Value.md",
     "unit09/09_060_Returning_Arrays_from_Methods.md",
     "rapper.png"
   ]
