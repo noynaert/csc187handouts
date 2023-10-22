@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit09/09_020_Wrapper_Classes.md",
+                "file": "unit09/09_040_Double_Wrapper.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit09/09_020_Wrapper_Classes.md",
+                "file": "unit09/09_040_Double_Wrapper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit09/09_020_Wrapper_Classes.md",
+                "file": "unit09/09_040_Double_Wrapper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit09/09_020_Wrapper_Classes.md"
+                "file": "unit09/09_040_Double_Wrapper.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
+    "unit09/09_030_Integer_Wrapper.md",
+    "unit09/09_040_Double_Wrapper.md",
+    "unit09/09_020_Wrapper_Classes.md",
     "unit09/09_030_Integer_Wrapper.md~",
     "videoNotes/unit09/unit09.synctex(busy)",
     "videoNotes/unit09/pdflatex499544.fls",
@@ -158,8 +161,6 @@
     "videoNotes/unit09/pdflatex499073.fls",
     "videoNotes/unit09/pdflatex499010.fls",
     "videoNotes/unit09/pdflatex498950.fls",
-    "videoNotes/unit09/pdflatex498883.fls",
-    "unit09/09_030_Integer_Wrapper.md",
     "unit09/09_010_ReadLine.md",
     "unit09/09_120_CommonTask_Sum_an_Array.md",
     "unit09/09_090_Common_Task_Print_An_Array.md",
@@ -171,7 +172,6 @@
     "unit09/09_080_Arrays_as_Parameters.md",
     "unit09/09_070_Call_by_Value.md",
     "unit09/09_060_Returning_Arrays_from_Methods.md",
-    "unit09/09_020_Wrapper_Classes.md",
     "rapper.png"
   ]
 }
