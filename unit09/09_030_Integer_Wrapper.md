@@ -11,21 +11,20 @@ Note that the above are ***fields*** and not methods; they do not have () at the
 
 Return type|methodName|Argument|Description
 :---:|:---:|:---:|:---
-static int|parseInt()|String|Parses the string argument as a signed decimal integer.
 static int|max()|int,int|Returns the greater of two int values as if by calling Math.max.
+static int|parseInt()|String|Parses the string argument as a signed decimal integer.
 
 ## Parsing an intiger
 
 ```java
-  String token = "+1234";
-        int number = 0;
-        try {
-            number = Integer.parseInt(token);
-        } catch (NumberFormatException e) {
-            number = Integer.MIN_VALUE;
-        }
-        if (number != Integer.MIN_VALUE)
-            System.out.println("The number is " + number);
-        else
-            System.out.println("The number is invalid.");
+ public static int parseInt(String s){
+            int number = 0;
+
+            try {
+                number = Integer.parseInt(s);
+            }catch(Exception e){
+                number = Integer.MIN_VALUE;
+            }
+            return number;
+    }
 ```
