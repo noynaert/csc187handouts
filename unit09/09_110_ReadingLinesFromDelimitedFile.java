@@ -1,0 +1,113 @@
+// 09.110 Reading from a delimited file
+//published as 09.110 in the notes.  
+//Note that you need to change the file name to Demo09.java if you want to run this file.
+
+//The video is at the following URL:
+/* 
+   https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eecf2379-00db-4f39-be02-b0a500cfa423
+*/
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+/**
+ * This program illustrates reading data from a tab-delimited file.
+ *
+ * @author J. Evan Noynaert
+ * @since October, 2024
+ */
+public class Demo09 {
+    public static final int MAX_STATES = 60;
+
+    public static void main(String[] args) {
+        int n;
+        String[] names = new String[MAX_STATES];
+        int[] populations = new int[MAX_STATES];
+        String fileName = "states.csv";
+
+        n = readStates(fileName, names, populations, MAX_STATES);
+        printStates(names, populations, n);
+        System.out.println("Done!");
+    }
+
+    /**
+     * Javadoc comment goes here
+     *
+     * @param names
+     * @param populations
+     * @param n
+     */
+
+    private static void printStates(String[] names, int[] populations, int n) {
+        System.out.printf("%-20s %10s\n", "STATE", "Population");
+        System.out.printf("%-20s %10s\n", "=====", "==========");
+
+        for (int i = 0; i < n; i++) {
+            System.out.printf("%-20s %,10d\n", names[i], populations[i]);
+        }
+
+    }
+
+    /**
+     * This method reads the names of states and stores them in parallel arrays
+     *
+     * @param fileName
+     * @param names       An array of state names
+     * @param populations An array of populations
+     * @param maxStates   the maximum array size
+     * @return n, the number of elements in the array
+     */
+
+    private static int readStates(String fileName, String[] names, int[] populations, int maxStates) {
+        int n = 0;
+        Scanner stateFile = null;
+
+        try {
+            stateFile = new Scanner(new File(fileName));
+        } catch (FileNotFoundException e) {
+            System.err.println(e.getMessage());
+            System.exit(187);
+        }
+
+        String line = stateFile.nextLine();
+
+        n = 0;
+        while (stateFile.hasNextLine() && n < maxStates) {
+            line = stateFile.nextLine().trim();
+
+
+            String[] fields = line.split("\t");
+            if (fields.length == 3) {
+                String name = fields[1];
+                int population = parseInt(fields[2]);
+                names[n] = name;
+                populations[n] = population;
+            }
+
+            n++;
+        }
+
+        stateFile.close();
+        return n;
+    }
+
+    /**
+     * Be sure to finish this javadoc comment
+     *
+     * @param s
+     * @return
+     */
+    public static int parseInt(String s) {
+        int number = Integer.MIN_VALUE;
+
+        try {
+            number = Integer.parseInt(s);
+        } catch (Exception e) {
+            System.err.printf("Probably not an integer: \"%s\"\n", s);
+        }
+        return number;
+
+    }
+
+}
