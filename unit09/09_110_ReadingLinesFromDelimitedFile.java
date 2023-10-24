@@ -4,7 +4,7 @@
 
 //The video is at the following URL:
 /* 
-   https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eecf2379-00db-4f39-be02-b0a500cfa423
+https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a5f617a-c49e-4fbd-be81-b0a500dd35ce
 */
 
 import java.io.File;
