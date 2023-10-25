@@ -87,7 +87,7 @@ public class Demo09 {
                 n++   // THIS IS THE CORRECT LOCATION OF n++
             }
 
-            /* n++; THIS WAS THE LOCATION IN THE VIDEO. IT IS WRONG.  IT WAS MOVED INSIDE THE LOOP
+            /* n++; THIS WAS THE LOCATION IN THE VIDEO. IT IS WRONG.  IT WAS MOVED INSIDE THE LOOP */
         }
 
         stateFile.close();
