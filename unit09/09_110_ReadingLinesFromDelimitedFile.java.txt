@@ -83,9 +83,11 @@ public class Demo09 {
                 int population = parseInt(fields[2]);
                 names[n] = name;
                 populations[n] = population;
+
+                n++   // THIS IS THE CORRECT LOCATION OF n++
             }
 
-            n++;
+            /* n++; THIS WAS THE LOCATION IN THE VIDEO. IT IS WRONG.  IT WAS MOVED INSIDE THE LOOP
         }
 
         stateFile.close();
