@@ -1,22 +1,10 @@
-# 10.020 📦 Packages and Classes 📦
+# 10.020 📦 Packages and Namespaces 📦
 
 ## The problem of naming things
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.     -- Phil Karlton
 
-## The Namespace Problem
-
-Not a major problem when almost all programs were written "in house."  
-
-As software became more sophisticated, it started incorporating other software.  That created naming conflicts.
-
-The problem was that each software developer needed to have a unique "Namespace."  
-
-### The Namespace Problem in our class
-
-Last week I made a point of naming my methods "parseInt" and "parseDouble."  I even used the same data types as an argument so that the methods had the same signature.  It worked because my method was created in a different namespace of the Main class.  The full name of the three potentially conflicting methods was Double.parseDouble(), Integer.parseInt(), Main.parseDouble(), and Main.parseInt().  Java just let me skip typing out the Main. when I was calling methods in the same class.
-
-### What about a namespace for Classes?
+## What about a namespace for Classes?
 
 But what about names of classes?  Is there a way to protect class names so we don't have to worry about duplicating them?  
 

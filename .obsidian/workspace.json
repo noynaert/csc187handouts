@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit10/10_020_Packages_and_Classes.md",
+                "file": "unit10/10_030_Packages_and_Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit10/10_020_Packages_and_Classes.md",
+                "file": "unit10/10_030_Packages_and_Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit10/10_020_Packages_and_Classes.md",
+                "file": "unit10/10_030_Packages_and_Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit10/10_020_Packages_and_Classes.md"
+                "file": "unit10/10_030_Packages_and_Classes.md"
               }
             }
           }
@@ -148,17 +148,21 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
-    "unit10/10_010_The_Object_Class.md",
+    "unit10/10_020_The_Namespace_Problem.md",
     "videoNotes/unit10/unit10.synctex(busy)",
-    "videoNotes/unit10/pdflatex963185.fls",
-    "videoNotes/unit10/pdflatex963019.fls",
-    "videoNotes/unit10/unit10.out",
-    "videoNotes/unit10/unit10.log",
-    "videoNotes/unit10/unit10.fls",
-    "videoNotes/unit10/pdflatex962981.fls",
-    "videoNotes/unit10/pdflatex962968.fls",
-    "videoNotes/unit10/pdflatex962923.fls",
-    "videoNotes/unit10/pdflatex962906.fls",
+    "videoNotes/unit10/pdflatex1006819.fls",
+    "videoNotes/unit10/pdflatex1006729.fls",
+    "videoNotes/unit10/pdflatex1006647.fls",
+    "videoNotes/unit10/pdflatex1006573.fls",
+    "videoNotes/unit10/pdflatex1006520.fls",
+    "videoNotes/unit10/pdflatex1006391.fls",
+    "videoNotes/unit10/pdflatex1006309.fls",
+    "videoNotes/unit10/pdflatex1006212.fls",
+    "videoNotes/unit10/pdflatex1005973.fls",
+    "unit10/10_010_The_Object_Class.md",
+    "unit10/10_030_Packages_and_Classes.md",
+    "unit10/10_020_Packages_and_Classes.md",
+    "unit10/10_030_The_Namespace_Problem.md",
     "unit09/09_060_UsingArrays.md",
     "unit09/09_070_Call_by_Value.md",
     "2023-10-22.md",
