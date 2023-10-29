@@ -16,4 +16,3 @@ Each part of the package name becomes a folder or a directory on the operating s
 
 ## Create the class in the lowest level of your directory structure.
 
-## Importing your project
