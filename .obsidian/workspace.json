@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit10/10_085_Java_Beans.md.md",
+                "file": "unit10/10_080_Constructors.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit10/10_085_Java_Beans.md.md",
+                "file": "unit10/10_080_Constructors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit10/10_085_Java_Beans.md.md",
+                "file": "unit10/10_080_Constructors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit10/10_085_Java_Beans.md.md"
+                "file": "unit10/10_080_Constructors.md"
               }
             }
           }
@@ -149,22 +149,23 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
+    "videoNotes/unit10/unit10.synctex(busy)",
+    "videoNotes/unit10/pdflatex1715960.fls",
+    "videoNotes/unit10/pdflatex1715853.fls",
+    "videoNotes/unit10/pdflatex1715784.fls",
+    "videoNotes/unit10/pdflatex1715761.fls",
+    "videoNotes/unit10/pdflatex1715745.fls",
+    "videoNotes/unit10/pdflatex1715684.fls",
+    "videoNotes/unit10/pdflatex1715671.fls",
+    "videoNotes/unit10/pdflatex1715577.fls",
+    "videoNotes/unit10/pdflatex1715495.fls",
+    "videoNotes/unit10/pdflatex1714958.fls",
+    "unit10/10_085_Java_Beans.md.md",
     "unit10/10_080_Constructors.md",
     "unit10/10_100_Array_of_Objects.md",
     "unit10/10_110_FindingMinimum.md",
     "unit10/10_090_JavaDoc_Comment.md.md",
-    "unit10/10_085_Java_Beans.md.md",
     "unit10/10_070_Getters.md",
-    "videoNotes/unit10/unit10.synctex(busy)",
-    "videoNotes/unit10/pdflatex1647500.fls",
-    "videoNotes/unit10/pdflatex1647441.fls",
-    "videoNotes/unit10/pdflatex1647186.fls",
-    "videoNotes/unit10/pdflatex1647147.fls",
-    "videoNotes/unit10/pdflatex1647082.fls",
-    "videoNotes/unit10/pdflatex1646900.fls",
-    "videoNotes/unit10/pdflatex1646860.fls",
-    "videoNotes/unit10/pdflatex1646730.fls",
-    "videoNotes/unit10/pdflatex1646438.fls",
     "unit10/10_060_Setters.md",
     "unit10/10_055_Users.md",
     "unit10/10_066_Users.md",
@@ -184,7 +185,6 @@
     "unit09/09_090_Common_Task_Print_An_Array.md",
     "unit09/09_100_CommonTask_Filling_an_array.md",
     "unit09/09_110_Common_Task_Read_from_File.md",
-    "unit09/09_100_Common_Task_Read_from_File.md",
     "rapper.png"
   ]
 }
