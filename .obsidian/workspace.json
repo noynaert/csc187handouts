@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit10/10_060_Setters.md",
+                "file": "unit10/10_085_Java_Beans.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit10/10_060_Setters.md",
+                "file": "unit10/10_085_Java_Beans.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit10/10_060_Setters.md",
+                "file": "unit10/10_085_Java_Beans.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit10/10_060_Setters.md"
+                "file": "unit10/10_085_Java_Beans.md.md"
               }
             }
           }
@@ -148,20 +149,27 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
+    "unit10/10_080_Constructors.md",
+    "unit10/10_100_Array_of_Objects.md",
+    "unit10/10_110_FindingMinimum.md",
+    "unit10/10_090_JavaDoc_Comment.md.md",
+    "unit10/10_085_Java_Beans.md.md",
+    "unit10/10_070_Getters.md",
+    "videoNotes/unit10/unit10.synctex(busy)",
+    "videoNotes/unit10/pdflatex1647500.fls",
+    "videoNotes/unit10/pdflatex1647441.fls",
+    "videoNotes/unit10/pdflatex1647186.fls",
+    "videoNotes/unit10/pdflatex1647147.fls",
+    "videoNotes/unit10/pdflatex1647082.fls",
+    "videoNotes/unit10/pdflatex1646900.fls",
+    "videoNotes/unit10/pdflatex1646860.fls",
+    "videoNotes/unit10/pdflatex1646730.fls",
+    "videoNotes/unit10/pdflatex1646438.fls",
+    "unit10/10_060_Setters.md",
     "unit10/10_055_Users.md",
     "unit10/10_066_Users.md",
     "unit10/10_030_Packages_and_Classes.md",
     "unit10/10_020_The_Namespace_Problem.md",
-    "videoNotes/unit10/unit10.synctex(busy)",
-    "videoNotes/unit10/pdflatex1006819.fls",
-    "videoNotes/unit10/pdflatex1006729.fls",
-    "videoNotes/unit10/pdflatex1006647.fls",
-    "videoNotes/unit10/pdflatex1006573.fls",
-    "videoNotes/unit10/pdflatex1006520.fls",
-    "videoNotes/unit10/pdflatex1006391.fls",
-    "videoNotes/unit10/pdflatex1006309.fls",
-    "videoNotes/unit10/pdflatex1006212.fls",
-    "videoNotes/unit10/pdflatex1005973.fls",
     "unit10/10_010_The_Object_Class.md",
     "unit10/10_020_Packages_and_Classes.md",
     "unit10/10_030_The_Namespace_Problem.md",
@@ -177,10 +185,6 @@
     "unit09/09_100_CommonTask_Filling_an_array.md",
     "unit09/09_110_Common_Task_Read_from_File.md",
     "unit09/09_100_Common_Task_Read_from_File.md",
-    "unit09/09_090_CommonTask_Filling_an_array.md",
-    "unit09/09_090_Common_Task_Reading_an_array.md",
-    "unit09/09_080_Arrays_as_Parameters.md",
-    "unit09/09_060_Returning_Arrays_from_Methods.md",
     "rapper.png"
   ]
 }
