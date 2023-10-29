@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit09/09_080_Arrays_as_Parameters.md",
+                "file": "unit10/10_020_Packages_and_Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit09/09_080_Arrays_as_Parameters.md",
+                "file": "unit10/10_020_Packages_and_Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit09/09_080_Arrays_as_Parameters.md",
+                "file": "unit10/10_020_Packages_and_Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit09/09_080_Arrays_as_Parameters.md"
+                "file": "unit10/10_020_Packages_and_Classes.md"
               }
             }
           }
@@ -149,19 +148,20 @@
   },
   "active": "4659dfb481138f80",
   "lastOpenFiles": [
+    "unit10/10_010_The_Object_Class.md",
+    "videoNotes/unit10/unit10.synctex(busy)",
+    "videoNotes/unit10/pdflatex963185.fls",
+    "videoNotes/unit10/pdflatex963019.fls",
+    "videoNotes/unit10/unit10.out",
+    "videoNotes/unit10/unit10.log",
+    "videoNotes/unit10/unit10.fls",
+    "videoNotes/unit10/pdflatex962981.fls",
+    "videoNotes/unit10/pdflatex962968.fls",
+    "videoNotes/unit10/pdflatex962923.fls",
+    "videoNotes/unit10/pdflatex962906.fls",
+    "unit09/09_060_UsingArrays.md",
     "unit09/09_070_Call_by_Value.md",
     "2023-10-22.md",
-    "unit09/09_060_UsingArrays.md",
-    "videoNotes/unit09/unit09.synctex(busy)",
-    "videoNotes/unit09/pdflatex2013035.fls",
-    "videoNotes/unit09/pdflatex2012986.fls",
-    "videoNotes/unit09/pdflatex2012485.fls",
-    "videoNotes/unit09/pdflatex2012426.fls",
-    "videoNotes/unit09/pdflatex2012321.fls",
-    "videoNotes/unit09/pdflatex2012311.fls",
-    "videoNotes/unit09/pdflatex2012212.fls",
-    "videoNotes/unit09/pdflatex2012205.fls",
-    "videoNotes/unit09/pdflatex2012162.fls",
     "unit09/09_040_Double_Wrapper.md",
     "unit09/09_030_Integer_Wrapper.md",
     "unit09/09_020_Wrapper_Classes.md",
