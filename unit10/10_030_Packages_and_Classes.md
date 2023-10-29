@@ -1,4 +1,4 @@
-# 10.020 📦 Packages and Namespaces 📦
+# 10.030 📦 Packages and Namespaces 📦
 
 ## The problem of naming things
 
