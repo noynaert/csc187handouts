@@ -1,0 +1,118 @@
+
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{../videoNotes}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{soul}
+
+\newcommand{\unit}{Unit 11}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 187 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 187 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{\unit\_010.010 -- PrintWriter} 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 10:11}}
+\begin{questions}
+\begin{samepage}
+    \question What class may be used to create a simple text output file?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write the line of code needed to instantiate an object of the PrintWriter class.  You do not need to handle the exception.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Do print(), println(), and printf() methods work with PrintWriter objects?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Suppose an object called \code{output} of the PrintWriter class has been instantiated.  Write the statement needed to write "Hello" to a file.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question In your own words, explain how opening a PrintWriter is similar or different than using a Scanner for input.
+    \vspace{15mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What does it mean when output is "buffered?"
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What does the flush() method do?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question If a file with the name specified in a PrintWriter already exists, what will happen if a new file with the same name is opened?
+    \vspace{5mm}
+\end{samepage}
+
+%----------------------------------
+\section*{\unit\_020 -- Appending to a File} 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 12:13}}
+
+\begin{samepage}
+    \question What class is used to allow PrintWriter objects to append to a file?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Write the line of code needed to instantiate an object of the PrintWriter class so that it will append to an existing file if one exists.  You do not need to handle the exception.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question How is the Exception different when you add the FileWrite class to PrintWriter?  (There are two parts to the answer.  What method generates the error, and what is the exception?)
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What happens if you open a file for appending if the file does not already exist?
+    \vspace{5mm}
+\end{samepage}
+
+%----------------------------------
+\section*{\unit\_030 -- Log Files} 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length 10:45 }}
+
+\begin{samepage}
+    \question Write the code needed to create a timestamp for the current time.
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question In the output shown on screen during the video, there was "red" code mixed in with the black, but the output did not look to be appearing in logical order.  Why didn't the output get printed in the order that we expected?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question I did not do this calculation in the video.  At the end of the video, the following two timestamps are shown.  These were subsequent calls during the same program run.  Approximately how many nanoseconds passed between the two calls?
+    \begin{verbatim}
+        2023-11-05T16:15:02.020411021 Error: ....
+        2023-11-05T16:15:02.023538839 Error: ....
+    \end{verbatim}
+        
+    The first time would be 020411021 nanoseconds.  This is 020.411021 milliseconds.
+    Approximately how many milliseconds passed between the first call and the second call?
+\end{samepage}
+\vspace{30mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+    \rule{0.5\textwidth}{.4pt}
+\end{center}
+Please write any lingering questions you have here.
+\end{questions}
+
+\end{document}
