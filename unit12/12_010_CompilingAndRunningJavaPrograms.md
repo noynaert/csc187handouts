@@ -53,11 +53,6 @@ Examples of high-level languages:
 
 Most modern computer languages are derived from FORTRAN.  
 
-
-
-
-
-
 ---
 Machine Language Credit: [https://en.wikipedia.org/wiki/Machine_code#/media/File:W65C816S_Machine_Code_Monitor.jpeg](https://en.wikipedia.org/wiki/Machine_code#/media/File:W65C816S_Machine_Code_Monitor.jpeg) (Creative Commons)
 

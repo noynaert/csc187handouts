@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e825828cafe20300",
+        "id": "8ed0e807829e0c22",
         "type": "tabs",
         "children": [
           {
-            "id": "4659dfb481138f80",
+            "id": "e2fe125092892a48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit10/10_100_Array_of_Objects.md",
+                "file": "unit12/12_030_Java_Mechanics.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit10/10_100_Array_of_Objects.md",
+                "file": "unit12/12_030_Java_Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit10/10_100_Array_of_Objects.md",
+                "file": "unit12/12_030_Java_Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit10/10_100_Array_of_Objects.md"
+                "file": "unit12/12_030_Java_Mechanics.md"
               }
             }
           }
@@ -147,22 +147,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4659dfb481138f80",
+  "active": "e2fe125092892a48",
   "lastOpenFiles": [
-    "videoNotes/unit10/unit10.synctex(busy)",
-    "videoNotes/unit10/pdflatex1829456.fls",
-    "videoNotes/unit10/pdflatex1829370.fls",
-    "videoNotes/unit10/pdflatex1829236.fls",
-    "videoNotes/unit10/pdflatex1829118.fls",
-    "videoNotes/unit10/pdflatex1828886.fls",
-    "videoNotes/unit10/pdflatex1828854.fls",
-    "videoNotes/unit10/pdflatex1828693.fls",
-    "videoNotes/unit10/pdflatex1828496.fls",
-    "videoNotes/unit10/pdflatex1828398.fls",
-    "videoNotes/unit10/pdflatex1828363.fls",
+    "unit12/code/java/__index__",
+    "unit12/code/java/org/jetbrains/yaml/refactoring/rename/YamlKeyValueRenameInputValidator.class",
+    "unit12/code/java/org/jetbrains/yaml/refactoring/rename",
+    "unit12/code/java/org/jetbrains/yaml/refactoring",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlUnstructuredClass.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlStringType.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlScalarType.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlScalarType$1.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlReferenceType.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlNumberType.class",
+    "unit12/code/java/org/jetbrains/yaml/meta/model/YamlMetaType.class",
+    "unit12/12_020-Language Translators.md",
+    "unit12/12_010_CompilingAndRunningJavaPrograms.md",
+    "unit12/12_030_Java_Mechanics.md",
+    "unit10/10_100_Array_of_Objects.md",
     "unit10/10_080_Constructors.md",
     "unit10/10_085_Java_Beans.md.md",
-    "unit10/10_100_Array_of_Objects.md",
     "unit10/10_110_FindingMinimum.md",
     "unit10/10_090_JavaDoc_Comment.md.md",
     "unit10/10_070_Getters.md",
@@ -182,9 +185,6 @@
     "unit09/09_020_Wrapper_Classes.md",
     "unit09/09_010_ReadLine.md",
     "unit09/09_120_CommonTask_Sum_an_Array.md",
-    "unit09/09_090_Common_Task_Print_An_Array.md",
-    "unit09/09_100_CommonTask_Filling_an_array.md",
-    "unit09/09_110_Common_Task_Read_from_File.md",
     "rapper.png"
   ]
 }

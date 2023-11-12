@@ -1,4 +1,9 @@
-# Language Translators
+# 12.020 Language Translators
+
+### Two types of files
+
+* **Source Code** -- Written by a programmer
+* **Object Code** -- Code that will run on the computer.
 
 ## Types of Translators
 
@@ -36,6 +41,7 @@ for i in range(0,9):
 * Compilers produce faster code because they avoid translation
 * Compilers make an object code file, and the source code files do not need to be distributed
 * Compilers tend to require more overhead, Interpreters are generally better for quick projects
+* Easier for a team to work on a project in a compiled language.  Better for very large projects.
 
 Portability between computer systems for both Interpreters and Compilers has always been elusive.
 
@@ -46,7 +52,7 @@ Java is a hybrid language.  It is a compiled language that translates the code i
 The .class file is interpreted into native machine language of the computer it is running on.  The interpreter can be extremely fast and efficient
 
 ```java
-ppublic class For {
+public class For {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
             System.out.println(Math.random());
