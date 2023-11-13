@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit12/12_040_Designing_A_Class.md.md",
+                "file": "unit12/12_050_Equals_and_HashCode.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit12/12_040_Designing_A_Class.md.md",
+                "file": "unit12/12_050_Equals_and_HashCode.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit12/12_040_Designing_A_Class.md.md",
+                "file": "unit12/12_050_Equals_and_HashCode.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit12/12_040_Designing_A_Class.md.md"
+                "file": "unit12/12_050_Equals_and_HashCode.md.md"
               }
             }
           }
@@ -147,24 +148,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c01f353adadea8a3",
+  "active": "e2fe125092892a48",
   "lastOpenFiles": [
-    "unit13/13_060_Growth_Rates.ipynb",
-    "unit13/12_050_Growth_Rates.ipynb",
-    "unit13",
+    "videoNotes/unit12/unit12.synctex(busy)",
+    "videoNotes/unit12/pdflatex3542424.fls",
+    "videoNotes/unit12/pdflatex3497650.fls",
+    "videoNotes/unit12/pdflatex3497620.fls",
+    "videoNotes/unit12/pdflatex3497429.fls",
+    "videoNotes/unit12/pdflatex3497381.fls",
+    "videoNotes/unit12/pdflatex3497283.fls",
+    "videoNotes/unit12/pdflatex3497178.fls",
+    "videoNotes/unit12/pdflatex3497072.fls",
+    "videoNotes/unit12/pdflatex3496992.fls",
+    "videoNotes/unit12/pdflatex3496949.fls",
+    "unit12/12_040_Designing_A_Class.md.md",
+    "unit12/12_050_Equals_and_HashCode.md.md",
     "unit12/images/bookUML.png",
     "unit12/images/Person.svg",
     "unit12/images/Person.png",
     "unit12/12_030_Java_Mechanics.md",
-    "unit12/12_040_Designing_A_Class.md.md",
-    "videoNotes/unit12/unit12.synctex(busy)",
-    "videoNotes/unit12/pdflatex2872609.fls",
-    "videoNotes/unit12/pdflatex2872598.fls",
-    "videoNotes/unit12/pdflatex2872551.fls",
-    "videoNotes/unit12/pdflatex2872531.fls",
-    "videoNotes/unit12/pdflatex2872333.fls",
-    "videoNotes/unit12/pdflatex2872163.fls",
-    "videoNotes/unit12/pdflatex2872107.fls",
     "unit12/12_020-Language Translators.md",
     "unit12/12_010_CompilingAndRunningJavaPrograms.md",
     "unit10/10_100_Array_of_Objects.md",
@@ -187,7 +189,6 @@
     "unit09/09_040_Double_Wrapper.md",
     "unit09/09_030_Integer_Wrapper.md",
     "unit09/09_020_Wrapper_Classes.md",
-    "unit09/09_010_ReadLine.md",
     "rapper.png"
   ]
 }
