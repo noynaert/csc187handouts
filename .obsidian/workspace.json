@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit12/12_050_Equals_and_HashCode.md.md",
+                "file": "unit12/12_060_searching.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit12/12_050_Equals_and_HashCode.md.md",
+                "file": "unit12/12_060_searching.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit12/12_050_Equals_and_HashCode.md.md",
+                "file": "unit12/12_060_searching.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit12/12_050_Equals_and_HashCode.md.md"
+                "file": "unit12/12_060_searching.md.md"
               }
             }
           }
@@ -148,21 +147,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2fe125092892a48",
+  "active": "c01f353adadea8a3",
   "lastOpenFiles": [
-    "videoNotes/unit12/unit12.synctex(busy)",
-    "videoNotes/unit12/pdflatex3542424.fls",
-    "videoNotes/unit12/pdflatex3497650.fls",
-    "videoNotes/unit12/pdflatex3497620.fls",
-    "videoNotes/unit12/pdflatex3497429.fls",
-    "videoNotes/unit12/pdflatex3497381.fls",
-    "videoNotes/unit12/pdflatex3497283.fls",
-    "videoNotes/unit12/pdflatex3497178.fls",
-    "videoNotes/unit12/pdflatex3497072.fls",
-    "videoNotes/unit12/pdflatex3496992.fls",
-    "videoNotes/unit12/pdflatex3496949.fls",
-    "unit12/12_040_Designing_A_Class.md.md",
     "unit12/12_050_Equals_and_HashCode.md.md",
+    "unit12/12_060_searching.md.md",
+    "videoNotes/unit12/unit12.synctex(busy)",
+    "videoNotes/unit12/pdflatex3626609.fls",
+    "videoNotes/unit12/pdflatex3626579.fls",
+    "videoNotes/unit12/pdflatex3626396.fls",
+    "videoNotes/unit12/pdflatex3626350.fls",
+    "videoNotes/unit12/pdflatex3626149.fls",
+    "videoNotes/unit12/pdflatex3626133.fls",
+    "videoNotes/unit12/pdflatex3626033.fls",
+    "videoNotes/unit12/pdflatex3626020.fls",
+    "videoNotes/unit12/pdflatex3625997.fls",
+    "unit12/12_040_Designing_A_Class.md.md",
     "unit12/images/bookUML.png",
     "unit12/images/Person.svg",
     "unit12/images/Person.png",
