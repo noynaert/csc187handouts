@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8ed0e807829e0c22",
+        "id": "49bb90805dbb2519",
         "type": "tabs",
         "children": [
           {
-            "id": "e2fe125092892a48",
+            "id": "07d51980a78fc156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unit12/12_060_searching.md.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit12/12_060_searching.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit12/12_060_searching.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "unit12/12_060_searching.md.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,10 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c01f353adadea8a3",
+  "active": "07d51980a78fc156",
   "lastOpenFiles": [
-    "unit12/12_050_Equals_and_HashCode.md.md",
     "unit12/12_060_searching.md.md",
+    "Untitled.canvas",
+    "unit12/12_050_Equals_and_HashCode.md.md",
     "videoNotes/unit12/unit12.synctex(busy)",
     "videoNotes/unit12/pdflatex3626609.fls",
     "videoNotes/unit12/pdflatex3626579.fls",
@@ -187,7 +180,6 @@
     "2023-10-22.md",
     "unit09/09_040_Double_Wrapper.md",
     "unit09/09_030_Integer_Wrapper.md",
-    "unit09/09_020_Wrapper_Classes.md",
     "rapper.png"
   ]
 }
