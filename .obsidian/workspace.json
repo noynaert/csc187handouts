@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "49bb90805dbb2519",
+        "id": "46654052d239899e",
         "type": "tabs",
         "children": [
           {
-            "id": "07d51980a78fc156",
+            "id": "f4236d2990eb2c9a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,7 +139,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07d51980a78fc156",
+  "active": "f4236d2990eb2c9a",
   "lastOpenFiles": [
     "unit12/12_060_searching.md.md",
     "Untitled.canvas",
