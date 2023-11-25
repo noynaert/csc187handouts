@@ -2,7 +2,7 @@ a.out*.bak
 ## IntelliJ
 *.idea
 *.iml
-
+*.class
 ################### TeX gitignore
 ## Core latex/pdflatex auxiliary files:
 *.aux
