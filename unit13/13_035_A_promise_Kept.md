@@ -9,14 +9,17 @@ What does every word and symbol do in a Java program?
 ```java
 public class Main {
     public static void main(String[] args) {
-
+		
     }
 }
 ```
 
 ## Bonus things we have covered
 
-* Which two words in the "incantation" could you change (We changed one of them constantly.  The second one is more subtle)
+```java
+    System.out.println(3);
+```
+
 * The output statement we learned was `System.out.println("Hello, World");`
   * I don't think we ever looked up "System" in the API.  But what is it?
   * `out` is something we covered, but it is probably the most obscure item.  It represents an output stream.  
