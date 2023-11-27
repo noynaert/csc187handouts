@@ -40,36 +40,210 @@
     \vspace{5mm}
 \end{samepage}
 %----------------------------------
-\section*{\unit\_030 -- } 
+\section*{\unit\_020 -- Access Modifiers} 
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
 
-%----------------------------------
-\section*{\unit\_030 -- } 
-\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+\begin{samepage}
+    \question What does each access modifier mean?
+      \begin{itemize}
+        \item public
+        \vspace{5mm}
+        \item protected
+        \vspace{5mm}
+        \item default
+        \vspace{5mm}
+        \item private
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question What is the difference between \texttt{\textbf{protected}} and the default level of access protection
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Can a class have \texttt{\textbf{protected}} as an access modifier?
+    \vspace{5mm}
+\end{samepage}
+
+\rule{20mm}{0.15mm}Why can't a class be declared private?
 
 %----------------------------------
-\section*{\unit\_030 -- } 
+\section*{\unit\_030 -- Static } 
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+\begin{samepage}
+    \question Suppose there is a class named \texttt{\textbf{Thing}}.  It has a public static field named \texttt{\textbf{constant}}.  How would you access constant from a class other than \texttt{\textbf{Thing}}?
+    \vspace{5mm}
+\end{samepage}
+
 
 %----------------------------------
-\section*{\unit\_030 -- } 
+\section*{\unit\_035 -- A Promise Kept } 
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
 
-%----------------------------------
-\section*{\unit\_030 -- } 
-\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+\begin{samepage}
+    \question Explain what each word means in the following
+    \begin{verbatim}
+        public class Homework{
+            public static void main(String[] args){
+
+            }
+        }
+    \end{verbatim}
+      \begin{itemize}
+        \item \code{public} (on the class line). Also, what do you know about the file name?
+        \vspace{5mm}
+        \item \code{class}
+        \vspace{5mm}
+        \item \code{Homework}
+        \vspace{5mm}
+        \item \code{public} (on the main line)
+        \vspace{5mm}
+        \item \code{static}
+        \vspace{5mm}
+        \item \code{void}
+        \vspace{5mm}
+        \item \code{main}
+        \vspace{5mm}
+        \item \code{String[]}
+        \vspace{5mm}
+        \item \code{args}
+        \vspace{5mm}
+       \end{itemize}
+\end{samepage}
+
+\begin{samepage}
+    \question Which two words in the above list could you as a programmer change? This was not answered in the video, but think about it.  There are two words that could be changed.
+    \vspace{5mm}
+\end{samepage}
 
 %----------------------------------
-\section*{\unit\_030 -- } 
+\section*{\unit\_040 -- Setup} 
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
 
+\begin{samepage}
+    \question I could have copied the package off to a new project.  What advantage did I get from using it in the same project as Homework12?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question I rewrote the printPresident() method from Homework12.  However, I could not use printPresident.  The first line of printPresident is listed below.  Why couldn't I just use Homework.printPresident(presidents,n)?
+    \begin{verbatim}
+        private static void printPresidents(President[] presidents,int n) {
+    \end{verbatim}
+    \vspace{5mm}
+\end{samepage}
 %----------------------------------
-\section*{\unit\_030 -- } 
+
+\section*{\unit\_045 -- Setup, Part 2} 
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
 
+\begin{samepage}
+    \question Both the Homework12 class and the LinearSearch classes had a function called makeName.  They had the same signature. Why didn't I have a problem? 
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question We didn't do this in the video, but assume that I now wanted to go into the Homework12 class and call makeName from the LinearSearch class.  What command would I use in Homework12 if I wanted to call the makeName() method in LinearSearch()?
+    \vspace{5mm}
+\end{samepage}
+
 %----------------------------------
-\section*{\unit\_030 -- } 
+\section*{\unit\_050 -- Big O} 
+
+Side note:  For people who know Python, I was using something called "Jupyter Notebook."  I did it in Visual Studio Code.  Jupyter notebooks are a very useful tool.  I suggest that anyone who knows Python learn about Jupyter notebooks.
+
 \par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+\begin{samepage}
+    \question Why is $O(N)$ called "Linear?"
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question Why is the growth rate only of concern when there are large values of N?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question What is $0(1)$ called?  What does it mean?  Does constant seem like a good name for this?
+    \vspace{15mm}
+\end{samepage}
+
+
+%----------------------------------
+
+\section*{\unit\_060 -- compareTo()} 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+
+\begin{samepage}
+    \question How can a class advertise that it is able to use a compareTo method?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question Assume that we want to make the Place class implement compareTo.  Write the \texttt{\textbf{public class Place}} statement to advertise that the compareTo method is implemented in the Place class.
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question For a place, the comparison is based on the state.  If the states are equal, then the comparison is based on the city. 
+    \vspace{55mm}
+\end{samepage}
+
+
+%----------------------------------
+\section*{\unit\_070 -- } 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+
+\begin{samepage}
+    \question What is the disadvantage of using a for loop for the linear search?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question Write the find method needed to do a comparison based on the birthPlace (in other words, find will return an entry of someone born in a given place.)
+    \vspace{55mm}
+\end{samepage}
+
+
+%----------------------------------
+\section*{\unit\_080 Part 1 -- YouTube video on Selection sort } 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+
+I hate tracing sorts.  There are a number of YouTube videos on the subject.  We will focus on the Selection Sort in this class.
+
+Watch the YouTube video at https://youtu.be/EwjnF7rFLns?si=ZpQsuO9slKj7Pdgd.  I will put the URL in the Notes page.
+
+If you don't want to use the notes, you can search YouTube for "Learn Selection Sort in 8 minutes" in the "Bro Code" channel.
+
+\begin{samepage}
+    \question The video talks in terms of "iterations."  What is true at the end of the first iteration?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question What is true at the end of the 2nd iteration?
+    \vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+    \question When he gets to the last item in the array, why doesn't he have to do an iteration for the last position?
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question In the video he shows that the growth rate is $O(n^2)$.  What is going to happen to the time as n gets large.  (In practical terms, "Large" for an $n^2$ sort is in the low hundreds). 
+    \vspace{5mm}
+\end{samepage}
+\begin{samepage}
+    \question In the space below, write the three lines that do the swap.  Note that they are the last three lines inside the outer for() loop.
+    \vspace{25mm}
+\end{samepage}
+
+
+
+%----------------------------------
+\section*{\unit\_080 Part2 Sorting Strings } 
+\par{\fontfamily{qzc}\selectfont\textbf{Video Length }}
+\begin{samepage}
+    \question In the video I changed "array" to "words."  That was a trivial change.  I added a parameter n because that is more realistic than using length.  I also changed "min" to "smallestSoFar."  I changed some data types from int to String.  What is the biggest non-trivial change I made in the code that was made necessary by changing from comparing ints to comparing Strings?
+    \vspace{5mm}
+\end{samepage}
 
 %----------------------------------
 \section*{\unit\_030 -- } 
