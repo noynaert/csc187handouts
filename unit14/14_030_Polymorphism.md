@@ -1,8 +1,8 @@
-# 14.030 PolyMorphism
+# 14.030 Polymorphism
 
 Polymorphism means "Many Forms" or "Many Shapes."
 
-There are two forms:
+There are two types of Polymorphism:
 
 * Within a class, there may be methods with the same name, but different signatures
 * Between classes, there may be the version in the super class and another version in the sub class.

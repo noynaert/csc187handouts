@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit14/14_015_Tour_of_Object.md",
+                "file": "unit14/14_060_Sorting.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit14/14_015_Tour_of_Object.md",
+                "file": "unit14/14_060_Sorting.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit14/14_015_Tour_of_Object.md",
+                "file": "unit14/14_060_Sorting.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit14/14_015_Tour_of_Object.md"
+                "file": "unit14/14_060_Sorting.md.md"
               }
             }
           }
@@ -147,21 +147,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4236d2990eb2c9a",
+  "active": "c01f353adadea8a3",
   "lastOpenFiles": [
-    "unit14/14_010_Inheritance.md",
-    "unit14/14_015_Tour_of_Object.md",
     "videoNotes/unit14/unit14.synctex(busy)",
-    "videoNotes/unit14/pdflatex300208.fls",
-    "videoNotes/unit14/pdflatex300194.fls",
-    "videoNotes/unit14/unit14.out",
-    "videoNotes/unit14/unit14.log",
-    "videoNotes/unit14/unit14.fls",
-    "videoNotes/unit14/pdflatex299554.fls",
-    "videoNotes/unit14/pdflatex299530.fls",
-    "videoNotes/unit14/pdflatex299323.fls",
-    "videoNotes/unit14/pdflatex299304.fls",
+    "videoNotes/unit14/pdflatex558264.fls",
+    "videoNotes/unit14/pdflatex558248.fls",
+    "videoNotes/unit14/pdflatex557941.fls",
+    "videoNotes/unit14/pdflatex557834.fls",
+    "videoNotes/unit14/pdflatex557566.fls",
+    "videoNotes/unit14/pdflatex557538.fls",
+    "videoNotes/unit14/pdflatex557470.fls",
+    "videoNotes/unit14/pdflatex557424.fls",
+    "videoNotes/unit14/pdflatex557382.fls",
+    "videoNotes/unit14/pdflatex557362.fls",
+    "unit14/14_050_Practical_Example.md",
+    "unit14/14_060_Sorting.md.md",
+    "unit14/14_040_Super.md",
+    "unit14/14_030_Polymorphism.md",
     "unit14/14_025_ISA_and_HASA_Relationships.md",
+    "unit14/14_020_Overriding.md",
+    "unit14/14_015_Tour_of_Object.md",
+    "unit14/14_010_Inheritance.md",
     "unit13/13_035_A_promise_Kept.md",
     "unit13/13_030_Static_Review.md",
     "unit13/13_020_Access_Modifiers.md",
@@ -188,12 +194,6 @@
     "unit10/10_080_Constructors.md",
     "unit10/10_085_Java_Beans.md.md",
     "unit10/10_110_FindingMinimum.md",
-    "unit10/10_090_JavaDoc_Comment.md.md",
-    "unit10/10_070_Getters.md",
-    "unit10/10_060_Setters.md",
-    "unit10/10_055_Users.md",
-    "unit10/10_066_Users.md",
-    "unit10/10_030_Packages_and_Classes.md",
     "rapper.png"
   ]
 }
