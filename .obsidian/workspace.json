@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit13/13_035_A_promise_Kept.md",
+                "file": "unit14/14_010_Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit13/13_035_A_promise_Kept.md",
+                "file": "unit14/14_010_Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit13/13_035_A_promise_Kept.md",
+                "file": "unit14/14_010_Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit13/13_035_A_promise_Kept.md"
+                "file": "unit14/14_010_Inheritance.md"
               }
             }
           }
@@ -149,20 +150,22 @@
   },
   "active": "f4236d2990eb2c9a",
   "lastOpenFiles": [
+    "videoNotes/unit14/unit14.out",
+    "videoNotes/unit14/unit14.synctex(busy)",
+    "videoNotes/unit14/unit14.log",
+    "videoNotes/unit14/unit14.fls",
+    "videoNotes/unit14/pdflatex259733.fls",
+    "videoNotes/unit14/pdflatex259717.fls",
+    "videoNotes/unit14/pdflatex258422.fls",
+    "videoNotes/unit14/pdflatex258299.fls",
+    "videoNotes/unit14/pdflatex256846.fls",
+    "videoNotes/unit14/pdflatex256817.fls",
+    "videoNotes/unit14/pdflatex256705.fls",
+    "unit14/14_025_ISA_and_HASA_Relationships.md",
+    "unit13/13_035_A_promise_Kept.md",
     "unit13/13_030_Static_Review.md",
     "unit13/13_020_Access_Modifiers.md",
     "unit13/13_012_Simulating_Arguments_in_IntelliJ.md",
-    "videoNotes/unit13/unit13.synctex(busy)",
-    "videoNotes/unit13/pdflatex3075354.fls",
-    "videoNotes/unit13/pdflatex3075341.fls",
-    "videoNotes/unit13/pdflatex3075272.fls",
-    "videoNotes/unit13/pdflatex3075203.fls",
-    "videoNotes/unit13/pdflatex3075157.fls",
-    "videoNotes/unit13/pdflatex3074977.fls",
-    "videoNotes/unit13/pdflatex3074965.fls",
-    "videoNotes/unit13/pdflatex3074789.fls",
-    "videoNotes/unit13/pdflatex3074705.fls",
-    "unit13/13_035_A_promise_Kept.md",
     "unit13/13_035_A_promise_fulfilled.md",
     "unit13/13_035_A_promise_complete.md",
     "unit13/images/AddingArguments.png",
@@ -192,8 +195,6 @@
     "unit10/10_066_Users.md",
     "unit10/10_030_Packages_and_Classes.md",
     "unit10/10_020_The_Namespace_Problem.md",
-    "unit10/10_010_The_Object_Class.md",
-    "unit10/10_020_Packages_and_Classes.md",
     "rapper.png"
   ]
 }

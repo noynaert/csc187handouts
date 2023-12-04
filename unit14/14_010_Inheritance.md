@@ -4,13 +4,18 @@
 
 All classes in Java extend the Object class.  Another way to say this is that Object is the "super" class for all other classes.  The other classes would be "sub" classes or child classes of the Object class.
 
-When a class extends a parent class, the sub class *inherits* all methods and fields that are not blocked by access modifiers.  Any `public` or `protected` members of the class are inherited.  Members that are default or `private` are not inherited.
-
 ## `final`  Classes
 
 Classes may be declared `final.`  Final classes may not be extended.  The String class may not be extended.  
 
 In most cases, declaring a class final is done to make it safe to work with in threads.
+
+## Super and Sub Classes
+### Also known as parent and child classes
+
+
+When a class extends a parent class, the sub class *inherits* all methods and fields that are not blocked by access modifiers.  Any `public` or `protected` members of the class are inherited.  Members that are default or `private` are not inherited.
+
 
 ## Example of extending the Object class
 
