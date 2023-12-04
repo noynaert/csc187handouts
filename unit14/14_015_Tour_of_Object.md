@@ -1,5 +1,7 @@
 # 14.015 Tour of the Object Class
 
+When a class extends a parent class, the sub class *inherits* all methods and fields that are not blocked by access modifiers.  Any `public` or `protected` members of the class are inherited.  Members that are default or `private` are not inherited.
+
 ```java
 public class Main14 {
     public static void main(String[] args) {

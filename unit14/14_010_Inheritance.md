@@ -14,8 +14,6 @@ In most cases, declaring a class final is done to make it safe to work with in t
 ### Also known as parent and child classes
 
 
-When a class extends a parent class, the sub class *inherits* all methods and fields that are not blocked by access modifiers.  Any `public` or `protected` members of the class are inherited.  Members that are default or `private` are not inherited.
-
 
 ## Example of extending the Object class
 
