@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unit14/14_010_Inheritance.md",
+                "file": "unit14/14_015_Tour_of_Object.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5297659b74dfcbfc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unit14/14_010_Inheritance.md",
+                "file": "unit14/14_015_Tour_of_Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unit14/14_010_Inheritance.md",
+                "file": "unit14/14_015_Tour_of_Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unit14/14_010_Inheritance.md"
+                "file": "unit14/14_015_Tour_of_Object.md"
               }
             }
           }
@@ -150,17 +149,18 @@
   },
   "active": "f4236d2990eb2c9a",
   "lastOpenFiles": [
-    "videoNotes/unit14/unit14.out",
+    "unit14/14_010_Inheritance.md",
+    "unit14/14_015_Tour_of_Object.md",
     "videoNotes/unit14/unit14.synctex(busy)",
+    "videoNotes/unit14/pdflatex300208.fls",
+    "videoNotes/unit14/pdflatex300194.fls",
+    "videoNotes/unit14/unit14.out",
     "videoNotes/unit14/unit14.log",
     "videoNotes/unit14/unit14.fls",
-    "videoNotes/unit14/pdflatex259733.fls",
-    "videoNotes/unit14/pdflatex259717.fls",
-    "videoNotes/unit14/pdflatex258422.fls",
-    "videoNotes/unit14/pdflatex258299.fls",
-    "videoNotes/unit14/pdflatex256846.fls",
-    "videoNotes/unit14/pdflatex256817.fls",
-    "videoNotes/unit14/pdflatex256705.fls",
+    "videoNotes/unit14/pdflatex299554.fls",
+    "videoNotes/unit14/pdflatex299530.fls",
+    "videoNotes/unit14/pdflatex299323.fls",
+    "videoNotes/unit14/pdflatex299304.fls",
     "unit14/14_025_ISA_and_HASA_Relationships.md",
     "unit13/13_035_A_promise_Kept.md",
     "unit13/13_030_Static_Review.md",
@@ -194,7 +194,6 @@
     "unit10/10_055_Users.md",
     "unit10/10_066_Users.md",
     "unit10/10_030_Packages_and_Classes.md",
-    "unit10/10_020_The_Namespace_Problem.md",
     "rapper.png"
   ]
 }
