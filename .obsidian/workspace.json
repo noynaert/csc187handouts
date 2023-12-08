@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "46654052d239899e",
+        "id": "cb2ccd6a1b2e0723",
         "type": "tabs",
         "children": [
           {
-            "id": "f4236d2990eb2c9a",
+            "id": "4b9f324de5b85332",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4236d2990eb2c9a",
+  "active": "4b9f324de5b85332",
   "lastOpenFiles": [
-    "unit15/15.020_ArryList.md",
+    "unit15/15.025_ReadingAnArrayList.md.md",
+    "unit15/Unit15.java.md",
     "unit15/15.030_for_each.md.md",
+    "unit15/15.020_ArryList.md",
     "unit15/15_010_Generics_side_issue.md",
     "unit15/15_010_Arrays_Good_Bad_and_Ugly.md",
     "unit14/14_060_Sorting.md.md",
@@ -192,8 +194,6 @@
     "unit12/images/Person.png",
     "unit12/12_030_Java_Mechanics.md",
     "unit12/12_020-Language Translators.md",
-    "unit12/12_010_CompilingAndRunningJavaPrograms.md",
-    "unit10/10_100_Array_of_Objects.md",
     "rapper.png"
   ]
 }
